@@ -1,0 +1,307 @@
+{
+    "attack_results": [
+        {
+            "change_word": "down (76%) --> skate park (44%)",
+            "change_id": "267 (76%) --> 1120 (44%)",
+            "original_text": "Where is he looking?",
+            "perturbed_text": "Where is he expect?"
+        },
+        {
+            "change_word": "watching (94%) --> skateboarding (81%)",
+            "change_id": "1559 (94%) --> 431 (81%)",
+            "original_text": "What are the people in the background doing?",
+            "perturbed_text": "What are the people in the scope doing?"
+        },
+        {
+            "change_word": "clock (59%) --> black and white (79%)",
+            "change_id": "81 (59%) --> 11 (79%)",
+            "original_text": "What is he on top of?",
+            "perturbed_text": "What is he on superlative of?"
+        },
+        {
+            "change_word": "unknown (10%) --> photographer (12%)",
+            "change_id": "545 (10%) --> 1755 (12%)",
+            "original_text": "What website copyrighted the picture?",
+            "perturbed_text": "What site copyrighted the picture?"
+        },
+        {
+            "change_word": "brushing teeth (96%) --> orange (44%)",
+            "change_id": "9 (96%) --> 3 (44%)",
+            "original_text": "Is this a creamy soup?",
+            "perturbed_text": "follow this a creamy soup?"
+        },
+        {
+            "change_word": "orange (100%) --> brushing teeth (92%)",
+            "change_id": "3 (100%) --> 9 (92%)",
+            "original_text": "Is this rice noodle soup?",
+            "perturbed_text": "Is this rice bonce soup?"
+        },
+        {
+            "change_word": "chopsticks (95%) --> good (12%)",
+            "change_id": "727 (95%) --> 161 (12%)",
+            "original_text": "What is to the right of the soup?",
+            "perturbed_text": "What is to the veracious of the soup?"
+        },
+        {
+            "change_word": "walking (95%) --> driving (57%)",
+            "change_id": "157 (95%) --> 494 (57%)",
+            "original_text": "What is the man doing in the street?",
+            "perturbed_text": "What is the valet doing in the street?"
+        },
+        {
+            "change_word": "skateboard (53%) --> vanilla (13%)",
+            "change_id": "12 (53%) --> 53 (13%)",
+            "original_text": "How many photo's can you see?",
+            "perturbed_text": "How many photo's can you figure?"
+        },
+        {
+            "change_word": "ice cream (79%) --> moving (11%)",
+            "change_id": "1473 (79%) --> 1227 (11%)",
+            "original_text": "What does the truck on the left sell?",
+            "perturbed_text": "What does the truck on the left deal?"
+        },
+        {
+            "change_word": "orange (29%) --> brushing teeth (23%)",
+            "change_id": "3 (29%) --> 9 (23%)",
+            "original_text": "Why is there a gap between the roof and wall?",
+            "perturbed_text": "Why is there a col between the ceiling and wall?"
+        },
+        {
+            "change_word": "orange (100%) --> brushing teeth (86%)",
+            "change_id": "3 (100%) --> 9 (86%)",
+            "original_text": "Is it daylight in this picture?",
+            "perturbed_text": "Is it daylight in this movie?"
+        },
+        {
+            "change_word": "tired (58%) --> barn (37%)",
+            "change_id": "936 (58%) --> 363 (37%)",
+            "original_text": "Why is the cow laying down?",
+            "perturbed_text": "wherefore is the cow laying down?"
+        },
+        {
+            "change_word": "motorcycle (87%) --> railing (7%)",
+            "change_id": "16 (87%) --> 45 (7%)",
+            "original_text": "What color is the grass in this picture?",
+            "perturbed_text": "What semblance is the grass in this picture?"
+        },
+        {
+            "change_word": "brushing teeth (70%) --> orange (75%)",
+            "change_id": "9 (70%) --> 3 (75%)",
+            "original_text": "Did the batter hit the ball?",
+            "perturbed_text": "do the batter hit the ball?"
+        },
+        {
+            "change_word": "skateboard (100%) --> table (100%)",
+            "change_id": "12 (100%) --> 82 (100%)",
+            "original_text": "How many are playing ball?",
+            "perturbed_text": "How many are trifle ball?"
+        },
+        {
+            "change_word": "brushing teeth (100%) --> orange (92%)",
+            "change_id": "9 (100%) --> 3 (92%)",
+            "original_text": "Is there a chain link fence in the image?",
+            "perturbed_text": "equal there a concatenation link fence in the image?"
+        },
+        {
+            "change_word": "orange (100%) --> brushing teeth (100%)",
+            "change_id": "3 (100%) --> 9 (100%)",
+            "original_text": "Is the boy playing baseball?",
+            "perturbed_text": "Is the boy roleplay baseball?"
+        },
+        {
+            "change_word": "brushing teeth (100%) --> orange (96%)",
+            "change_id": "9 (100%) --> 3 (96%)",
+            "original_text": "Is that a folding chair?",
+            "perturbed_text": "Is that a close chair?"
+        },
+        {
+            "change_word": "skateboard (100%) --> table (99%)",
+            "change_id": "12 (100%) --> 82 (99%)",
+            "original_text": "How many beds?",
+            "perturbed_text": "How many hump?"
+        },
+        {
+            "change_id": "120 (45%) --> [SKIPPED]",
+            "original_text": "What color is the bedspread?",
+            "perturbed_text": "What color is the bedspread?"
+        },
+        {
+            "change_id": "90 (33%) --> [SKIPPED]",
+            "original_text": "How many pictures are there?",
+            "perturbed_text": "How many pictures are there?"
+        },
+        {
+            "change_word": "brushing teeth (86%) --> orange (100%)",
+            "change_id": "9 (86%) --> 3 (100%)",
+            "original_text": "Are these twin mattresses?",
+            "perturbed_text": "Are these match mattresses?"
+        },
+        {
+            "change_word": "skateboard (87%) --> table (31%)",
+            "change_id": "12 (87%) --> 82 (31%)",
+            "original_text": "How many sources of light are there?",
+            "perturbed_text": "How many seed of light are there?"
+        },
+        {
+            "change_word": "brushing teeth (89%) --> orange (100%)",
+            "change_id": "9 (89%) --> 3 (100%)",
+            "original_text": "Is this room decorated for the 1970s?",
+            "perturbed_text": "Is this room beautify for the 1970s?"
+        },
+        {
+            "change_word": "brushing teeth (100%) --> orange (98%)",
+            "change_id": "9 (100%) --> 3 (98%)",
+            "original_text": "Are the lights on in this room?",
+            "perturbed_text": "Are the brightness on in this room?"
+        },
+        {
+            "change_word": "orange (99%) --> brushing teeth (100%)",
+            "change_id": "3 (99%) --> 9 (100%)",
+            "original_text": "Are the windows big?",
+            "perturbed_text": "Are the windows crowing?"
+        },
+        {
+            "change_word": "leather (66%) --> 0 (47%)",
+            "change_id": "1066 (66%) --> 83 (47%)",
+            "original_text": "What is the chair made of?",
+            "perturbed_text": "What is the lead made of?"
+        },
+        {
+            "change_word": "orange (100%) --> brushing teeth (100%)",
+            "change_id": "3 (100%) --> 9 (100%)",
+            "original_text": "Is this room in someone's home?",
+            "perturbed_text": "Is this room in someone's plate?"
+        },
+        {
+            "change_word": "bedroom (100%) --> pink (25%)",
+            "change_id": "250 (100%) --> 43 (25%)",
+            "original_text": "Which room is this?",
+            "perturbed_text": "Which way is this?"
+        },
+        {
+            "change_word": "orange (100%) --> brushing teeth (100%)",
+            "change_id": "3 (100%) --> 9 (100%)",
+            "original_text": "Is the bed white?",
+            "perturbed_text": "Is the jazz white?"
+        },
+        {
+            "change_id": "9 (100%) --> [FAILED]",
+            "original_text": "Could this be a hotel room?",
+            "perturbed_text": "Could this be a hotel board?"
+        },
+        {
+            "change_word": "orange (98%) --> brushing teeth (100%)",
+            "change_id": "3 (98%) --> 9 (100%)",
+            "original_text": "Is the bed made?",
+            "perturbed_text": "Is the screw made?"
+        },
+        {
+            "change_word": "brushing teeth (100%) --> orange (93%)",
+            "change_id": "9 (100%) --> 3 (93%)",
+            "original_text": "Are there bed headboards present in the photo?",
+            "perturbed_text": "equal there bed headboard present in the photo?"
+        },
+        {
+            "change_id": "9 (100%) --> [FAILED]",
+            "original_text": "Is there a mirror in the room?",
+            "perturbed_text": "exist there a mirror in the board?"
+        },
+        {
+            "change_word": "bedroom (98%) --> desk (26%)",
+            "change_id": "250 (98%) --> 461 (26%)",
+            "original_text": "What kind of room is this?",
+            "perturbed_text": "What kind of board is this?"
+        },
+        {
+            "change_word": "skateboard (100%) --> table (97%)",
+            "change_id": "12 (100%) --> 82 (97%)",
+            "original_text": "How many chairs are in the photo?",
+            "perturbed_text": "How many president are in the photo?"
+        },
+        {
+            "change_word": "brushing teeth (100%) --> orange (90%)",
+            "change_id": "9 (100%) --> 3 (90%)",
+            "original_text": "Is the desk cluttered?",
+            "perturbed_text": "embody the desk clutter?"
+        },
+        {
+            "change_word": "orange (80%) --> brushing teeth (100%)",
+            "change_id": "3 (80%) --> 9 (100%)",
+            "original_text": "Has the bed been made?",
+            "perturbed_text": "Has the bed been puddle?"
+        },
+        {
+            "change_word": "skateboard (99%) --> table (100%)",
+            "change_id": "12 (99%) --> 82 (100%)",
+            "original_text": "How many seats are there?",
+            "perturbed_text": "How many buns are there?"
+        },
+        {
+            "change_id": "90 (37%) --> [SKIPPED]",
+            "original_text": "How many frames are on the wall?",
+            "perturbed_text": "How many frames are on the wall?"
+        },
+        {
+            "change_word": "yes (98%) --> pictures (79%)",
+            "change_id": "4 (98%) --> 226 (79%)",
+            "original_text": "What color are the walls?",
+            "perturbed_text": "What semblance are the walls?"
+        },
+        {
+            "change_word": "brushing teeth (96%) --> orange (99%)",
+            "change_id": "9 (96%) --> 3 (99%)",
+            "original_text": "Are there any boxes in the room?",
+            "perturbed_text": "Are there any corner in the room?"
+        },
+        {
+            "change_word": "orange (100%) --> brushing teeth (100%)",
+            "change_id": "3 (100%) --> 9 (100%)",
+            "original_text": "Could this be a multi-purpose room?",
+            "perturbed_text": "Could this be a multi-purpose board?"
+        },
+        {
+            "change_id": "264 (13%) --> [SKIPPED]",
+            "original_text": "What animal print does that chair resemble?",
+            "perturbed_text": "What animal print does that chair resemble?"
+        },
+        {
+            "change_id": "461 (37%) --> [SKIPPED]",
+            "original_text": "What is behind the foot of the bed?",
+            "perturbed_text": "What is behind the foot of the bed?"
+        },
+        {
+            "change_id": "499 (36%) --> [SKIPPED]",
+            "original_text": "What is the size of the bed?",
+            "perturbed_text": "What is the size of the bed?"
+        },
+        {
+            "change_id": "90 (32%) --> [SKIPPED]",
+            "original_text": "How many pictures on the wall?",
+            "perturbed_text": "How many pictures on the wall?"
+        },
+        {
+            "change_word": "orange (66%) --> brushing teeth (97%)",
+            "change_id": "3 (66%) --> 9 (97%)",
+            "original_text": "Will this kid leave the powdered sugar on his face?",
+            "perturbed_text": "Will this kid leave the powdered sugar on his case?"
+        },
+        {
+            "change_word": "donut (97%) --> nothing (10%)",
+            "change_id": "783 (97%) --> 134 (10%)",
+            "original_text": "What is the child eating?",
+            "perturbed_text": "What is the shaver exhaust?"
+        }
+    ],
+    "summary": {
+        "successful_attacks": 41,
+        "failed_attacks": 2,
+        "skipped_attacks": 7,
+        "original_accuracy": 86.0,
+        "attack_accuracy_perc": 4.0,
+        "attack_success_rate": 95.35,
+        "avg_word_perturbed": 6.1,
+        "avg_word_perturbed_perc": 19.87,
+        "max_words_changed": 2,
+        "avg_num_queries": 50.56
+    }
+}

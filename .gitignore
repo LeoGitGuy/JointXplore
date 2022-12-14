@@ -1,0 +1,16 @@
+# cloned repo
+LAVIS/
+# data
+data/train2014
+data/val2014
+filtered_annotations.json
+filtered_questions.json
+train_filtered_annotations.json
+train_filtered_questions.json
+# test notebooks
+ALBEF_for_VQA.ipynb
+VILT_for_VQA.ipynb
+Textattack_for_ViLT.ipynb
+# env
+__pycache__
+.ipynb_checkpoints
