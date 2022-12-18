@@ -15,9 +15,9 @@ from file_handler import load_annotations_questions_filenames, save_coverage_res
 def parse_args():
     parser = argparse.ArgumentParser(description="JointXplore")
 
-    parser.add_argument("--data-path", help="path to filtered vqa 2.0 dataset", default="./data/")
+    parser.add_argument("--data_path", help="path to filtered vqa 2.0 dataset", default="./data/")
     parser.add_argument("--model", help="specify the model to use", choices=["vilt", "albef"], default="vilt")
-    parser.add_argument("--use_rnd_images", help="if specified, random images are used", action="store_true")
+    parser.add_argument("--use_rnd", help="if specified, random images are used", action="store_true")
     parser.add_argument("--task", required = True, help="choose task to execute", choices=["coverage_regions", "coverage", "adversarial_text"])
     parser.add_argument("--num_samples", help="number of dataset samples for experiment", type=int, default=2500)
     parser.add_argument("--activations_file", help="for K-Section or Boundary Coverage, reference coverage regions must be loaded")
@@ -40,7 +40,7 @@ def main():
     data_path = args.data_path
     num_samples = args.num_samples
     image_path = f"{data_path}val2014"
-    use_rnd = args.use_rnd_images
+    use_rnd = args.use_rnd
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     if task == "coverage_regions":

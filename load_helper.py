@@ -9,6 +9,7 @@ from typing import Optional
 from tqdm.notebook import tqdm
 from torch.nn.utils.rnn import pad_sequence
 from transformers import ViltProcessor, ViltForQuestionAnswering
+from file_handler import save_filtered_datasets, load_raw_annotations_questions
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 processor = ""
@@ -188,6 +189,18 @@ class VQADataset_random_img(torch.utils.data.Dataset):
 		encoding["label_indices"] = labels
 
 		return encoding
+
+def create_filtered_datasets(data_path):
+    train_questions, train_annotations, questions, \
+    annotations, train_file_names, file_names = load_raw_annotations_questions(data_path)
+    train_image_path = f"{data_path}train2014"
+    image_path = f"{data_path}val2014"
+    _, train_id_to_filename = filename_mapping(train_file_names, train_image_path)
+    _, id_to_filename = filename_mapping(file_names, image_path)
+    train_filtered_questions, train_filtered_annotations = filter_dataset_for_greyscale(train_questions, train_annotations, train_id_to_filename)
+    save_filtered_datasets(train_filtered_questions, train_filtered_annotations, data_path, "train_")
+    filtered_questions, filtered_annotations = filter_dataset_for_greyscale(questions, annotations, id_to_filename)
+    save_filtered_datasets(filtered_questions, filtered_annotations, data_path, filename_prefix="")
 	
 def filter_dataset_for_greyscale(annotations, questions, id_to_filename, data_len = 10000):
   	# delete_questions = []
@@ -209,7 +222,6 @@ def filter_dataset_for_greyscale(annotations, questions, id_to_filename, data_le
 		except:
 			continue
   #sorted_annotations = [annotations[idx] for idx in tqdm(range(len(annotations))) if not len(Image.open(id_to_filename[annotations[idx]['image_id']]).getbands()) == 1]
-  
 	return filtered_annotations, filtered_questions
 
 
@@ -353,3 +365,6 @@ def collate_fn_albef(batch):
 	#batch['label_indices'] = padded_label_indices
 
 	return batch
+
+if __name__ == "__main__":
+    create_filtered_datasets("./data/")

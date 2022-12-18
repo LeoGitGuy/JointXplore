@@ -1,4 +1,4 @@
-import torch, gc
+import torch
 num_samples = 4
 import textattack
 import copy
@@ -143,8 +143,6 @@ def execute_attack(model, questions, annotations, processor, config, id_to_filen
     i = 0
     j = 0
     while j < num_attacks:
-        gc.collect()
-        torch.cuda.empty_cache()
         attack_dataset = generate_attack_dataset(questions[i:i+1], annotations[i:i+1], model_type)
         attacker = construct_attacker(i)
         attack_result = attacker.attack_dataset()
