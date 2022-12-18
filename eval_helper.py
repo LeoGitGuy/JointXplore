@@ -6,6 +6,7 @@ def compute_metrics(logits, labels):
     return labels[torch.arange(labels.size(0)), preds].sum()/labels.shape[0]
 
 def compute_metrics_albef(preds, batch):
+    
     acc = 0
     al = 0
     answer_scores = list(zip(batch["answer"], batch["weight"]))

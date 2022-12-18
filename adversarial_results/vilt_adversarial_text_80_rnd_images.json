@@ -1,0 +1,1131 @@
+{
+    "attack_results": [
+        {
+            "change_word": "down (53%) --> beach (31%)",
+            "change_id": "267 (53%) --> 263 (31%)",
+            "original_text": "Where is he looking?",
+            "perturbed_text": "Where is he expect?"
+        },
+        {
+            "change_id": "360 (22%) --> [SKIPPED]",
+            "original_text": "What are the people in the background doing?",
+            "perturbed_text": "What are the people in the background doing?"
+        },
+        {
+            "change_id": "21 (35%) --> [SKIPPED]",
+            "original_text": "What is he on top of?",
+            "perturbed_text": "What is he on top of?"
+        },
+        {
+            "change_id": "545 (34%) --> [FAILED]",
+            "original_text": "What website copyrighted the picture?",
+            "perturbed_text": "What website copyrighted the picture?"
+        },
+        {
+            "change_id": "3 (53%) --> [SKIPPED]",
+            "original_text": "Is this a creamy soup?",
+            "perturbed_text": "Is this a creamy soup?"
+        },
+        {
+            "change_id": "9 (77%) --> [SKIPPED]",
+            "original_text": "Is this rice noodle soup?",
+            "perturbed_text": "Is this rice noodle soup?"
+        },
+        {
+            "change_id": "123 (9%) --> [SKIPPED]",
+            "original_text": "What is to the right of the soup?",
+            "perturbed_text": "What is to the right of the soup?"
+        },
+        {
+            "change_word": "walking (30%) --> driving (68%)",
+            "change_id": "157 (30%) --> 494 (68%)",
+            "original_text": "What is the man doing in the street?",
+            "perturbed_text": "What is the valet doing in the street?"
+        },
+        {
+            "change_id": "12 (34%) --> [FAILED]",
+            "original_text": "How many photo's can you see?",
+            "perturbed_text": "How many photo's can you see?"
+        },
+        {
+            "change_id": "334 (11%) --> [SKIPPED]",
+            "original_text": "What does the truck on the left sell?",
+            "perturbed_text": "What does the truck on the left sell?"
+        },
+        {
+            "change_id": "9 (19%) --> [SKIPPED]",
+            "original_text": "Why is there a gap between the roof and wall?",
+            "perturbed_text": "Why is there a gap between the roof and wall?"
+        },
+        {
+            "change_id": "3 (66%) --> [FAILED]",
+            "original_text": "Is it daylight in this picture?",
+            "perturbed_text": "Is it daylight in this picture?"
+        },
+        {
+            "change_word": "tired (72%) --> field (13%)",
+            "change_id": "936 (72%) --> 445 (13%)",
+            "original_text": "Why is the cow laying down?",
+            "perturbed_text": "wherefore is the cow laying down?"
+        },
+        {
+            "change_id": "14 (96%) --> [SKIPPED]",
+            "original_text": "What color is the grass in this picture?",
+            "perturbed_text": "What color is the grass in this picture?"
+        },
+        {
+            "change_id": "9 (51%) --> [FAILED]",
+            "original_text": "Did the batter hit the ball?",
+            "perturbed_text": "Did the batter hit the ball?"
+        },
+        {
+            "change_id": "12 (54%) --> [FAILED]",
+            "original_text": "How many are playing ball?",
+            "perturbed_text": "How many are playing ball?"
+        },
+        {
+            "change_id": "9 (94%) --> [FAILED]",
+            "original_text": "Is there a chain link fence in the image?",
+            "perturbed_text": "Is there a chain link fence in the image?"
+        },
+        {
+            "change_id": "3 (92%) --> [FAILED]",
+            "original_text": "Is the boy playing baseball?",
+            "perturbed_text": "Is the boy playing baseball?"
+        },
+        {
+            "change_id": "3 (68%) --> [SKIPPED]",
+            "original_text": "Is that a folding chair?",
+            "perturbed_text": "Is that a folding chair?"
+        },
+        {
+            "change_id": "17 (34%) --> [SKIPPED]",
+            "original_text": "How many beds?",
+            "perturbed_text": "How many beds?"
+        },
+        {
+            "change_id": "4 (44%) --> [FAILED]",
+            "original_text": "What color is the bedspread?",
+            "perturbed_text": "What coloration is the bedspread?"
+        },
+        {
+            "change_id": "12 (39%) --> [SKIPPED]",
+            "original_text": "How many pictures are there?",
+            "perturbed_text": "How many pictures are there?"
+        },
+        {
+            "change_id": "3 (67%) --> [SKIPPED]",
+            "original_text": "Are these twin mattresses?",
+            "perturbed_text": "Are these twin mattresses?"
+        },
+        {
+            "change_id": "12 (36%) --> [FAILED]",
+            "original_text": "How many sources of light are there?",
+            "perturbed_text": "How many sources of light are there?"
+        },
+        {
+            "change_word": "brushing teeth (52%) --> orange (77%)",
+            "change_id": "9 (52%) --> 3 (77%)",
+            "original_text": "Is this room decorated for the 1970s?",
+            "perturbed_text": "comprise this room decorated for the 1970s?"
+        },
+        {
+            "change_id": "9 (80%) --> [FAILED]",
+            "original_text": "Are the lights on in this room?",
+            "perturbed_text": "Are the lights on in this room?"
+        },
+        {
+            "change_id": "3 (92%) --> [FAILED]",
+            "original_text": "Are the windows big?",
+            "perturbed_text": "Are the windows big?"
+        },
+        {
+            "change_id": "83 (40%) --> [SKIPPED]",
+            "original_text": "What is the chair made of?",
+            "perturbed_text": "What is the chair made of?"
+        },
+        {
+            "change_id": "3 (78%) --> [FAILED]",
+            "original_text": "Is this room in someone's home?",
+            "perturbed_text": "Is this room in someone's home?"
+        },
+        {
+            "change_id": "91 (92%) --> [SKIPPED]",
+            "original_text": "Which room is this?",
+            "perturbed_text": "Which room is this?"
+        },
+        {
+            "change_id": "3 (82%) --> [FAILED]",
+            "original_text": "Is the bed white?",
+            "perturbed_text": "Is the bed white?"
+        },
+        {
+            "change_id": "3 (90%) --> [SKIPPED]",
+            "original_text": "Could this be a hotel room?",
+            "perturbed_text": "Could this be a hotel room?"
+        },
+        {
+            "change_id": "3 (81%) --> [FAILED]",
+            "original_text": "Is the bed made?",
+            "perturbed_text": "Is the bed made?"
+        },
+        {
+            "change_id": "9 (88%) --> [FAILED]",
+            "original_text": "Are there bed headboards present in the photo?",
+            "perturbed_text": "Are there bed headboards present in the photo?"
+        },
+        {
+            "change_word": "brushing teeth (66%) --> orange (61%)",
+            "change_id": "9 (66%) --> 3 (61%)",
+            "original_text": "Is there a mirror in the room?",
+            "perturbed_text": "follow there a mirror in the room?"
+        },
+        {
+            "change_id": "91 (72%) --> [SKIPPED]",
+            "original_text": "What kind of room is this?",
+            "perturbed_text": "What kind of room is this?"
+        },
+        {
+            "change_id": "17 (20%) --> [SKIPPED]",
+            "original_text": "How many chairs are in the photo?",
+            "perturbed_text": "How many chairs are in the photo?"
+        },
+        {
+            "change_id": "3 (55%) --> [SKIPPED]",
+            "original_text": "Is the desk cluttered?",
+            "perturbed_text": "Is the desk cluttered?"
+        },
+        {
+            "change_id": "3 (85%) --> [FAILED]",
+            "original_text": "Has the bed been made?",
+            "perturbed_text": "Has the bed been made?"
+        },
+        {
+            "change_id": "17 (11%) --> [SKIPPED]",
+            "original_text": "How many seats are there?",
+            "perturbed_text": "How many seats are there?"
+        },
+        {
+            "change_id": "12 (21%) --> [SKIPPED]",
+            "original_text": "How many frames are on the wall?",
+            "perturbed_text": "How many frames are on the wall?"
+        },
+        {
+            "change_id": "4 (32%) --> [FAILED]",
+            "original_text": "What color are the walls?",
+            "perturbed_text": "What coloration are the walls?"
+        },
+        {
+            "change_id": "3 (63%) --> [SKIPPED]",
+            "original_text": "Are there any boxes in the room?",
+            "perturbed_text": "Are there any boxes in the room?"
+        },
+        {
+            "change_id": "9 (75%) --> [SKIPPED]",
+            "original_text": "Could this be a multi-purpose room?",
+            "perturbed_text": "Could this be a multi-purpose room?"
+        },
+        {
+            "change_id": "168 (28%) --> [SKIPPED]",
+            "original_text": "What animal print does that chair resemble?",
+            "perturbed_text": "What animal print does that chair resemble?"
+        },
+        {
+            "change_id": "78 (12%) --> [SKIPPED]",
+            "original_text": "What is behind the foot of the bed?",
+            "perturbed_text": "What is behind the foot of the bed?"
+        },
+        {
+            "change_id": "499 (34%) --> [SKIPPED]",
+            "original_text": "What is the size of the bed?",
+            "perturbed_text": "What is the size of the bed?"
+        },
+        {
+            "change_id": "12 (50%) --> [SKIPPED]",
+            "original_text": "How many pictures on the wall?",
+            "perturbed_text": "How many pictures on the wall?"
+        },
+        {
+            "change_id": "9 (79%) --> [SKIPPED]",
+            "original_text": "Will this kid leave the powdered sugar on his face?",
+            "perturbed_text": "Will this kid leave the powdered sugar on his face?"
+        },
+        {
+            "change_id": "123 (35%) --> [SKIPPED]",
+            "original_text": "What is the child eating?",
+            "perturbed_text": "What is the child eating?"
+        },
+        {
+            "change_id": "3 (66%) --> [SKIPPED]",
+            "original_text": "Is this person wearing a tie?",
+            "perturbed_text": "Is this person wearing a tie?"
+        },
+        {
+            "change_id": "59 (75%) --> [SKIPPED]",
+            "original_text": "What color is the kids hair?",
+            "perturbed_text": "What color is the kids hair?"
+        },
+        {
+            "change_id": "3 (58%) --> [SKIPPED]",
+            "original_text": "Is the man's tie purple?",
+            "perturbed_text": "Is the man's tie purple?"
+        },
+        {
+            "change_id": "655 (15%) --> [SKIPPED]",
+            "original_text": "Where was the picture taken of the man?",
+            "perturbed_text": "Where was the picture taken of the man?"
+        },
+        {
+            "change_id": "100 (61%) --> [FAILED]",
+            "original_text": "What is the man wearing on his head?",
+            "perturbed_text": "What is the man wearing on his head?"
+        },
+        {
+            "change_id": "9 (86%) --> [FAILED]",
+            "original_text": "Is this a designer tie?",
+            "perturbed_text": "Is this a designer tie?"
+        },
+        {
+            "change_id": "3 (84%) --> [SKIPPED]",
+            "original_text": "Is this photo color?",
+            "perturbed_text": "Is this photo color?"
+        },
+        {
+            "change_id": "1405 (72%) --> [SKIPPED]",
+            "original_text": "Does the door open inward or outward?",
+            "perturbed_text": "Does the door open inward or outward?"
+        },
+        {
+            "change_id": "9 (86%) --> [SKIPPED]",
+            "original_text": "Is there a drainage in the pic?",
+            "perturbed_text": "Is there a drainage in the pic?"
+        },
+        {
+            "change_id": "134 (15%) --> [SKIPPED]",
+            "original_text": "What does the sentence on the top say?",
+            "perturbed_text": "What does the sentence on the top say?"
+        },
+        {
+            "change_id": "190 (45%) --> [SKIPPED]",
+            "original_text": "What kind of vehicle is the RV pulling on the bottom picture?",
+            "perturbed_text": "What kind of vehicle is the RV pulling on the bottom picture?"
+        },
+        {
+            "change_id": "655 (13%) --> [SKIPPED]",
+            "original_text": "Where is the camping tent?",
+            "perturbed_text": "Where is the camping tent?"
+        },
+        {
+            "change_word": "yes (27%) --> computer (14%)",
+            "change_id": "4 (27%) --> 30 (14%)",
+            "original_text": "What color are the gym shoes?",
+            "perturbed_text": "What coloration are the gym shoes?"
+        },
+        {
+            "change_id": "9 (59%) --> [SKIPPED]",
+            "original_text": "Is there a red sandal here?",
+            "perturbed_text": "Is there a red sandal here?"
+        },
+        {
+            "change_id": "13 (37%) --> [SKIPPED]",
+            "original_text": "What color is the flip flop?",
+            "perturbed_text": "What color is the flip flop?"
+        },
+        {
+            "change_word": "orange (77%) --> brushing teeth (61%)",
+            "change_id": "3 (77%) --> 9 (61%)",
+            "original_text": "Are there players in the dugout?",
+            "perturbed_text": "Are there players in the bunker?"
+        },
+        {
+            "change_id": "9 (76%) --> [FAILED]",
+            "original_text": "Is the battery looking at the ball?",
+            "perturbed_text": "Is the battery looking at the ball?"
+        },
+        {
+            "change_id": "17 (12%) --> [SKIPPED]",
+            "original_text": "How many people are on the field?",
+            "perturbed_text": "How many people are on the field?"
+        },
+        {
+            "change_id": "12 (56%) --> [SKIPPED]",
+            "original_text": "How many signs?",
+            "perturbed_text": "How many signs?"
+        },
+        {
+            "change_id": "13 (28%) --> [SKIPPED]",
+            "original_text": "What color is the Salisbury Rd. sign?",
+            "perturbed_text": "What color is the Salisbury Rd. sign?"
+        },
+        {
+            "change_id": "202 (12%) --> [SKIPPED]",
+            "original_text": "What does the last sign say?",
+            "perturbed_text": "What does the last sign say?"
+        },
+        {
+            "change_id": "6 (24%) --> [SKIPPED]",
+            "original_text": "What color is the sign?",
+            "perturbed_text": "What color is the sign?"
+        },
+        {
+            "change_id": "43 (36%) --> [SKIPPED]",
+            "original_text": "Can you turn right or left in the tunnel?",
+            "perturbed_text": "Can you turn right or left in the tunnel?"
+        },
+        {
+            "change_id": "14 (80%) --> [FAILED]",
+            "original_text": "What color is the plant?",
+            "perturbed_text": "What color is the plant?"
+        },
+        {
+            "change_id": "6 (24%) --> [SKIPPED]",
+            "original_text": "What color is the woman's shirt on the left?",
+            "perturbed_text": "What color is the woman's shirt on the left?"
+        },
+        {
+            "change_id": "68 (56%) --> [SKIPPED]",
+            "original_text": "What type of beverage is being displayed?",
+            "perturbed_text": "What type of beverage is being displayed?"
+        },
+        {
+            "change_id": "215 (38%) --> [SKIPPED]",
+            "original_text": "Why are some people wearing hats?",
+            "perturbed_text": "Why are some people wearing hats?"
+        },
+        {
+            "change_id": "1050 (8%) --> [SKIPPED]",
+            "original_text": "What kind of event are the people involved in?",
+            "perturbed_text": "What kind of event are the people involved in?"
+        },
+        {
+            "change_id": "12 (49%) --> [SKIPPED]",
+            "original_text": "How many skyscrapers are there?",
+            "perturbed_text": "How many skyscrapers are there?"
+        },
+        {
+            "change_id": "77 (21%) --> [SKIPPED]",
+            "original_text": "What is the color of the building in the background?",
+            "perturbed_text": "What is the color of the building in the background?"
+        },
+        {
+            "change_id": "9 (54%) --> [SKIPPED]",
+            "original_text": "Is there a tree in front of the building?",
+            "perturbed_text": "Is there a tree in front of the building?"
+        },
+        {
+            "change_id": "9 (60%) --> [FAILED]",
+            "original_text": "Is there a person riding a bike?",
+            "perturbed_text": "Is there a person riding a bike?"
+        },
+        {
+            "change_id": "3 (87%) --> [FAILED]",
+            "original_text": "Are there lights on in the two buildings?",
+            "perturbed_text": "Are there lights on in the two buildings?"
+        },
+        {
+            "change_id": "32 (42%) --> [FAILED]",
+            "original_text": "How many stories is the building on the left?",
+            "perturbed_text": "How many stories is the building on the left?"
+        },
+        {
+            "change_id": "3 (75%) --> [SKIPPED]",
+            "original_text": "Is this a hospital?",
+            "perturbed_text": "Is this a hospital?"
+        },
+        {
+            "change_id": "12 (18%) --> [SKIPPED]",
+            "original_text": "How many umbrellas do you see?",
+            "perturbed_text": "How many umbrellas do you see?"
+        },
+        {
+            "change_id": "17 (63%) --> [SKIPPED]",
+            "original_text": "How many colors is the building on the right painted?",
+            "perturbed_text": "How many colors is the building on the right painted?"
+        },
+        {
+            "change_id": "134 (17%) --> [SKIPPED]",
+            "original_text": "What is on the boy's back walking?",
+            "perturbed_text": "What is on the boy's back walking?"
+        },
+        {
+            "change_id": "17 (48%) --> [SKIPPED]",
+            "original_text": "How many modes of transportation are depicted?",
+            "perturbed_text": "How many modes of transportation are depicted?"
+        },
+        {
+            "change_id": "77 (18%) --> [SKIPPED]",
+            "original_text": "What color is the building?",
+            "perturbed_text": "What color is the building?"
+        },
+        {
+            "change_id": "9 (74%) --> [SKIPPED]",
+            "original_text": "Is it still snowing in the picture?",
+            "perturbed_text": "Is it still snowing in the picture?"
+        },
+        {
+            "change_id": "9 (91%) --> [SKIPPED]",
+            "original_text": "Does this appear to be a photo of multiple exposures of the black clad snowboarder?",
+            "perturbed_text": "Does this appear to be a photo of multiple exposures of the black clad snowboarder?"
+        },
+        {
+            "change_id": "12 (16%) --> [SKIPPED]",
+            "original_text": "How many people can you see in the picture?",
+            "perturbed_text": "How many people can you see in the picture?"
+        },
+        {
+            "change_id": "3 (55%) --> [SKIPPED]",
+            "original_text": "Is this an adult party?",
+            "perturbed_text": "Is this an adult party?"
+        },
+        {
+            "change_word": "birthday (70%) --> cat (12%)",
+            "change_id": "144 (70%) --> 211 (12%)",
+            "original_text": "What is being celebrated?",
+            "perturbed_text": "What is being fete?"
+        },
+        {
+            "change_id": "1221 (44%) --> [SKIPPED]",
+            "original_text": "Who is in front of the cake with candles?",
+            "perturbed_text": "Who is in front of the cake with candles?"
+        },
+        {
+            "change_id": "372 (35%) --> [SKIPPED]",
+            "original_text": "What is this vehicle?",
+            "perturbed_text": "What is this vehicle?"
+        },
+        {
+            "change_id": "9 (98%) --> [FAILED]",
+            "original_text": "Can you see the hook up for the train?",
+            "perturbed_text": "Can you see the hook up for the train?"
+        },
+        {
+            "change_id": "9 (98%) --> [SKIPPED]",
+            "original_text": "Is this train at the station?",
+            "perturbed_text": "Is this train at the station?"
+        },
+        {
+            "change_id": "279 (48%) --> [FAILED]",
+            "original_text": "What is cast?",
+            "perturbed_text": "What is cast?"
+        },
+        {
+            "change_id": "153 (43%) --> [SKIPPED]",
+            "original_text": "What is the background metal structure?",
+            "perturbed_text": "What is the background metal structure?"
+        },
+        {
+            "change_id": "9 (100%) --> [FAILED]",
+            "original_text": "Is there smoke coming out of the train?",
+            "perturbed_text": "Is there smoke coming out of the train?"
+        },
+        {
+            "change_id": "9 (63%) --> [SKIPPED]",
+            "original_text": "Is this station in a rural setting?",
+            "perturbed_text": "Is this station in a rural setting?"
+        },
+        {
+            "change_id": "3 (59%) --> [FAILED]",
+            "original_text": "Are the train tracks clear?",
+            "perturbed_text": "Are the train tracks clear?"
+        },
+        {
+            "change_id": "808 (56%) --> [FAILED]",
+            "original_text": "What type of cat is this?",
+            "perturbed_text": "What type of cat is this?"
+        },
+        {
+            "change_id": "134 (9%) --> [SKIPPED]",
+            "original_text": "What is written lg in the pic?",
+            "perturbed_text": "What is written lg in the pic?"
+        },
+        {
+            "change_id": "12 (63%) --> [SKIPPED]",
+            "original_text": "How many cats are in the image?",
+            "perturbed_text": "How many cats are in the image?"
+        },
+        {
+            "change_id": "9 (82%) --> [FAILED]",
+            "original_text": "Are there any tour buses?",
+            "perturbed_text": "Are there any tour buses?"
+        },
+        {
+            "change_id": "231 (42%) --> [SKIPPED]",
+            "original_text": "What's the statue of?",
+            "perturbed_text": "What's the statue of?"
+        },
+        {
+            "change_id": "9 (64%) --> [FAILED]",
+            "original_text": "Are all three cars facing the same direction?",
+            "perturbed_text": "Are all three cars facing the same direction?"
+        },
+        {
+            "change_id": "1259 (16%) --> [SKIPPED]",
+            "original_text": "What year is the car?",
+            "perturbed_text": "What year is the car?"
+        },
+        {
+            "change_word": "1 (89%) --> yes (33%)",
+            "change_id": "13 (89%) --> 4 (33%)",
+            "original_text": "What color is the sky?",
+            "perturbed_text": "What color is the pitch?"
+        },
+        {
+            "change_id": "1927 (3%) --> [SKIPPED]",
+            "original_text": "What time is it on the clock?",
+            "perturbed_text": "What time is it on the clock?"
+        },
+        {
+            "change_id": "3 (53%) --> [SKIPPED]",
+            "original_text": "Are there a lot of people milling around?",
+            "perturbed_text": "Are there a lot of people milling around?"
+        },
+        {
+            "change_id": "3 (80%) --> [FAILED]",
+            "original_text": "Is the building large?",
+            "perturbed_text": "Is the building large?"
+        },
+        {
+            "change_id": "248 (43%) --> [SKIPPED]",
+            "original_text": "How is the weather?",
+            "perturbed_text": "How is the weather?"
+        },
+        {
+            "change_id": "77 (27%) --> [SKIPPED]",
+            "original_text": "What color is the building the background?",
+            "perturbed_text": "What color is the building the background?"
+        },
+        {
+            "change_id": "504 (26%) --> [SKIPPED]",
+            "original_text": "What time is it?",
+            "perturbed_text": "What time is it?"
+        },
+        {
+            "change_id": "3 (92%) --> [FAILED]",
+            "original_text": "Does it rain here a lot?",
+            "perturbed_text": "Does it rain here a lot?"
+        },
+        {
+            "change_id": "1403 (24%) --> [SKIPPED]",
+            "original_text": "Which famous landmark appears in the background?",
+            "perturbed_text": "Which famous landmark appears in the background?"
+        },
+        {
+            "change_word": "brushing teeth (93%) --> orange (74%)",
+            "change_id": "9 (93%) --> 3 (74%)",
+            "original_text": "Is that a cake?",
+            "perturbed_text": "embody that a cake?"
+        },
+        {
+            "change_id": "3 (74%) --> [SKIPPED]",
+            "original_text": "Is this a one way street?",
+            "perturbed_text": "Is this a one way street?"
+        },
+        {
+            "change_id": "6 (25%) --> [FAILED]",
+            "original_text": "What color is the dome of the building off in the distance?",
+            "perturbed_text": "What color is the dome of the building off in the distance?"
+        },
+        {
+            "change_word": "rolex (54%) --> people (22%)",
+            "change_id": "80 (54%) --> 192 (22%)",
+            "original_text": "What is in the tower?",
+            "perturbed_text": "What is in the towboat?"
+        },
+        {
+            "change_id": "9 (66%) --> [SKIPPED]",
+            "original_text": "Is the giraffe a baby?",
+            "perturbed_text": "Is the giraffe a baby?"
+        },
+        {
+            "change_id": "12 (40%) --> [SKIPPED]",
+            "original_text": "How many giraffes are there?",
+            "perturbed_text": "How many giraffes are there?"
+        },
+        {
+            "change_id": "9 (51%) --> [FAILED]",
+            "original_text": "Are the animals in the shade?",
+            "perturbed_text": "Are the animals in the shade?"
+        },
+        {
+            "change_id": "12 (43%) --> [SKIPPED]",
+            "original_text": "How many giraffes can been seen?",
+            "perturbed_text": "How many giraffes can been seen?"
+        },
+        {
+            "change_id": "3 (86%) --> [SKIPPED]",
+            "original_text": "Are the animals in the wild?",
+            "perturbed_text": "Are the animals in the wild?"
+        },
+        {
+            "change_id": "558 (33%) --> [FAILED]",
+            "original_text": "Why is there a white roofed open pavilion?",
+            "perturbed_text": "Why is there a white roofed open pavilion?"
+        },
+        {
+            "change_id": "3 (77%) --> [SKIPPED]",
+            "original_text": "Will these giraffes be eating the grass for dinner?",
+            "perturbed_text": "Will these giraffes be eating the grass for dinner?"
+        },
+        {
+            "change_id": "9 (75%) --> [FAILED]",
+            "original_text": "Do you see a body of water in the picture?",
+            "perturbed_text": "Do you see a body of water in the picture?"
+        },
+        {
+            "change_id": "35 (28%) --> [SKIPPED]",
+            "original_text": "What is in front of the giraffe?",
+            "perturbed_text": "What is in front of the giraffe?"
+        },
+        {
+            "change_id": "12 (43%) --> [SKIPPED]",
+            "original_text": "How many giraffe are pictured?",
+            "perturbed_text": "How many giraffe are pictured?"
+        },
+        {
+            "change_id": "1016 (23%) --> [SKIPPED]",
+            "original_text": "Where do these animals live?",
+            "perturbed_text": "Where do these animals live?"
+        },
+        {
+            "change_word": "giraffes (13%) --> birds (52%)",
+            "change_id": "441 (13%) --> 447 (52%)",
+            "original_text": "What are these animals?",
+            "perturbed_text": "What are these fauna?"
+        },
+        {
+            "change_word": "brushing teeth (56%) --> orange (57%)",
+            "change_id": "9 (56%) --> 3 (57%)",
+            "original_text": "Is this a beach scene?",
+            "perturbed_text": "constitute this a beach scene?"
+        },
+        {
+            "change_id": "11 (49%) --> [SKIPPED]",
+            "original_text": "What kind of object is the kid riding?",
+            "perturbed_text": "What kind of object is the kid riding?"
+        },
+        {
+            "change_id": "5 (16%) --> [SKIPPED]",
+            "original_text": "What is the this person doing?",
+            "perturbed_text": "What is the this person doing?"
+        },
+        {
+            "change_id": "360 (24%) --> [SKIPPED]",
+            "original_text": "What sport is the man doing?",
+            "perturbed_text": "What sport is the man doing?"
+        },
+        {
+            "change_id": "9 (50%) --> [SKIPPED]",
+            "original_text": "Is this man snowboarding?",
+            "perturbed_text": "Is this man snowboarding?"
+        },
+        {
+            "change_word": "brushing teeth (55%) --> orange (62%)",
+            "change_id": "9 (55%) --> 3 (62%)",
+            "original_text": "Is there any snow on the trees?",
+            "perturbed_text": "Is there any snow on the shoetree?"
+        },
+        {
+            "change_id": "9 (86%) --> [FAILED]",
+            "original_text": "Is this person flying?",
+            "perturbed_text": "Is this person flying?"
+        },
+        {
+            "change_id": "9 (98%) --> [SKIPPED]",
+            "original_text": "Is this man flying off of the ski slope?",
+            "perturbed_text": "Is this man flying off of the ski slope?"
+        },
+        {
+            "change_id": "500 (10%) --> [SKIPPED]",
+            "original_text": "What is the person wearing?",
+            "perturbed_text": "What is the person wearing?"
+        },
+        {
+            "change_id": "431 (13%) --> [SKIPPED]",
+            "original_text": "What is the man doing?",
+            "perturbed_text": "What is the man doing?"
+        },
+        {
+            "change_id": "65 (14%) --> [SKIPPED]",
+            "original_text": "What pattern is painted on the helmet?",
+            "perturbed_text": "What pattern is painted on the helmet?"
+        },
+        {
+            "change_id": "3 (78%) --> [FAILED]",
+            "original_text": "Is he going to land?",
+            "perturbed_text": "Is he going to land?"
+        },
+        {
+            "change_id": "360 (17%) --> [SKIPPED]",
+            "original_text": "What sport is the man participating in?",
+            "perturbed_text": "What sport is the man participating in?"
+        },
+        {
+            "change_id": "372 (54%) --> [SKIPPED]",
+            "original_text": "What is in the air?",
+            "perturbed_text": "What is in the air?"
+        },
+        {
+            "change_id": "9 (77%) --> [SKIPPED]",
+            "original_text": "Does the man have goggles on?",
+            "perturbed_text": "Does the man have goggles on?"
+        },
+        {
+            "change_id": "6 (26%) --> [FAILED]",
+            "original_text": "What color is the man's jacket?",
+            "perturbed_text": "What coloring is the man's jacket?"
+        },
+        {
+            "change_id": "1524 (17%) --> [SKIPPED]",
+            "original_text": "What kind of building is this?",
+            "perturbed_text": "What kind of building is this?"
+        },
+        {
+            "change_id": "6 (23%) --> [SKIPPED]",
+            "original_text": "What color is the dome shaped roof in the back?",
+            "perturbed_text": "What color is the dome shaped roof in the back?"
+        },
+        {
+            "change_id": "4 (43%) --> [SKIPPED]",
+            "original_text": "What color is the church?",
+            "perturbed_text": "What color is the church?"
+        },
+        {
+            "change_id": "777 (15%) --> [SKIPPED]",
+            "original_text": "Where are the cars?",
+            "perturbed_text": "Where are the cars?"
+        },
+        {
+            "change_id": "80 (39%) --> [SKIPPED]",
+            "original_text": "What is displayed under the triangular dome?",
+            "perturbed_text": "What is displayed under the triangular dome?"
+        },
+        {
+            "change_id": "357 (16%) --> [SKIPPED]",
+            "original_text": "Where is the bird?",
+            "perturbed_text": "Where is the bird?"
+        },
+        {
+            "change_word": "skateboard (17%) --> gray (15%)",
+            "change_id": "12 (17%) --> 17 (15%)",
+            "original_text": "How many birds?",
+            "perturbed_text": "How many chick?"
+        },
+        {
+            "change_id": "120 (43%) --> [SKIPPED]",
+            "original_text": "What color are the bird's feathers?",
+            "perturbed_text": "What color are the bird's feathers?"
+        },
+        {
+            "change_id": "3 (78%) --> [FAILED]",
+            "original_text": "Does this dog have a collar?",
+            "perturbed_text": "Does this dog have a collar?"
+        },
+        {
+            "change_id": "212 (17%) --> [SKIPPED]",
+            "original_text": "Where is the dog laying?",
+            "perturbed_text": "Where is the dog laying?"
+        },
+        {
+            "change_id": "361 (21%) --> [SKIPPED]",
+            "original_text": "What is the dog doing?",
+            "perturbed_text": "What is the dog doing?"
+        },
+        {
+            "change_id": "3 (60%) --> [FAILED]",
+            "original_text": "Are any of these people wearing a wetsuit?",
+            "perturbed_text": "Are any of these people wearing a wetsuit?"
+        },
+        {
+            "change_id": "822 (33%) --> [SKIPPED]",
+            "original_text": "How are the waves?",
+            "perturbed_text": "How are the waves?"
+        },
+        {
+            "change_id": "17 (13%) --> [SKIPPED]",
+            "original_text": "How many people are here?",
+            "perturbed_text": "How many people are here?"
+        },
+        {
+            "change_id": "3 (93%) --> [FAILED]",
+            "original_text": "Are these people wet?",
+            "perturbed_text": "Are these people wet?"
+        },
+        {
+            "change_word": "brushing teeth (62%) --> orange (79%)",
+            "change_id": "9 (62%) --> 3 (79%)",
+            "original_text": "Are there pill bottles?",
+            "perturbed_text": "cost there pill bottles?"
+        },
+        {
+            "change_id": "2748 (19%) --> [FAILED]",
+            "original_text": "What kind of sign is above the doorway?",
+            "perturbed_text": "What kind of sign is above the doorway?"
+        },
+        {
+            "change_id": "3 (90%) --> [FAILED]",
+            "original_text": "Is the computer a popular model?",
+            "perturbed_text": "Is the computer a popular model?"
+        },
+        {
+            "change_id": "6 (46%) --> [SKIPPED]",
+            "original_text": "What color is the ribbon?",
+            "perturbed_text": "What color is the ribbon?"
+        },
+        {
+            "change_id": "541 (33%) --> [SKIPPED]",
+            "original_text": "What is the ground made of?",
+            "perturbed_text": "What is the ground made of?"
+        },
+        {
+            "change_id": "622 (42%) --> [SKIPPED]",
+            "original_text": "Why are the bicycles chained?",
+            "perturbed_text": "Why are the bicycles chained?"
+        },
+        {
+            "change_id": "2814 (21%) --> [SKIPPED]",
+            "original_text": "What type of vehicles are these?",
+            "perturbed_text": "What type of vehicles are these?"
+        },
+        {
+            "change_id": "3 (61%) --> [SKIPPED]",
+            "original_text": "Are these comfortable chairs?",
+            "perturbed_text": "Are these comfortable chairs?"
+        },
+        {
+            "change_id": "233 (27%) --> [SKIPPED]",
+            "original_text": "Where are these bicycles chained at?",
+            "perturbed_text": "Where are these bicycles chained at?"
+        },
+        {
+            "change_id": "236 (68%) --> [SKIPPED]",
+            "original_text": "What is on the ground?",
+            "perturbed_text": "What is on the ground?"
+        },
+        {
+            "change_id": "372 (59%) --> [SKIPPED]",
+            "original_text": "What is gliding in the air?",
+            "perturbed_text": "What is gliding in the air?"
+        },
+        {
+            "change_id": "257 (39%) --> [SKIPPED]",
+            "original_text": "What sport are the girls playing?",
+            "perturbed_text": "What sport are the girls playing?"
+        },
+        {
+            "change_id": "9 (82%) --> [FAILED]",
+            "original_text": "Are the girls professionals?",
+            "perturbed_text": "comprise the girls professionals?"
+        },
+        {
+            "change_id": "12 (23%) --> [SKIPPED]",
+            "original_text": "How many babies are there?",
+            "perturbed_text": "How many babies are there?"
+        },
+        {
+            "change_id": "1019 (69%) --> [FAILED]",
+            "original_text": "Are these men or women?",
+            "perturbed_text": "Are these men or women?"
+        },
+        {
+            "change_id": "1260 (65%) --> [SKIPPED]",
+            "original_text": "What are on the girls heads?",
+            "perturbed_text": "What are on the girls heads?"
+        },
+        {
+            "change_id": "66 (18%) --> [SKIPPED]",
+            "original_text": "What game are they playing?",
+            "perturbed_text": "What game are they playing?"
+        },
+        {
+            "change_id": "309 (33%) --> [SKIPPED]",
+            "original_text": "Where is the bear sitting?",
+            "perturbed_text": "Where is the bear sitting?"
+        },
+        {
+            "change_id": "9 (85%) --> [FAILED]",
+            "original_text": "Is the bear real?",
+            "perturbed_text": "Is the bear real?"
+        },
+        {
+            "change_id": "59 (76%) --> [FAILED]",
+            "original_text": "What is the color of the bear?",
+            "perturbed_text": "What is the color of the bear?"
+        },
+        {
+            "change_word": "smile (52%) --> hair (17%)",
+            "change_id": "830 (52%) --> 758 (17%)",
+            "original_text": "What type of facial expression does the woman have?",
+            "perturbed_text": "What type of facial construction does the woman have?"
+        },
+        {
+            "change_id": "789 (39%) --> [SKIPPED]",
+            "original_text": "What covers the window?",
+            "perturbed_text": "What covers the window?"
+        },
+        {
+            "change_id": "6 (23%) --> [SKIPPED]",
+            "original_text": "What color are the woman's nails?",
+            "perturbed_text": "What color are the woman's nails?"
+        },
+        {
+            "change_word": "leaves (92%) --> bracelet (10%)",
+            "change_id": "89 (92%) --> 688 (10%)",
+            "original_text": "What does the woman have around her neck?",
+            "perturbed_text": "What does the woman have around her cervix?"
+        },
+        {
+            "change_id": "231 (55%) --> [SKIPPED]",
+            "original_text": "Who is smiling?",
+            "perturbed_text": "Who is smiling?"
+        },
+        {
+            "change_id": "298 (73%) --> [FAILED]",
+            "original_text": "Is this a woman or man?",
+            "perturbed_text": "Is this a woman or man?"
+        },
+        {
+            "change_id": "318 (11%) --> [SKIPPED]",
+            "original_text": "What is the girl doing?",
+            "perturbed_text": "What is the girl doing?"
+        },
+        {
+            "change_id": "1040 (13%) --> [SKIPPED]",
+            "original_text": "What brand of dogs are these?",
+            "perturbed_text": "What brand of dogs are these?"
+        },
+        {
+            "change_id": "1688 (30%) --> [SKIPPED]",
+            "original_text": "What is keeping the dogs from running away?",
+            "perturbed_text": "What is keeping the dogs from running away?"
+        },
+        {
+            "change_id": "9 (64%) --> [SKIPPED]",
+            "original_text": "Are all the dogs looking in the same direction?",
+            "perturbed_text": "Are all the dogs looking in the same direction?"
+        },
+        {
+            "change_id": "760 (26%) --> [FAILED]",
+            "original_text": "What is the women's racket touching?",
+            "perturbed_text": "What is the women's racket touching?"
+        },
+        {
+            "change_word": "net (86%) --> fence (42%)",
+            "change_id": "0 (86%) --> 233 (42%)",
+            "original_text": "What is stretched across the court?",
+            "perturbed_text": "What is stretched across the courtyard?"
+        },
+        {
+            "change_id": "3 (100%) --> [FAILED]",
+            "original_text": "Does the man enjoy tennis?",
+            "perturbed_text": "Does the man enjoy tennis?"
+        },
+        {
+            "change_id": "14 (46%) --> [FAILED]",
+            "original_text": "What color is the court?",
+            "perturbed_text": "What color is the court?"
+        },
+        {
+            "change_id": "3 (61%) --> [FAILED]",
+            "original_text": "Are the players tired?",
+            "perturbed_text": "Are the players tired?"
+        },
+        {
+            "change_id": "9 (64%) --> [FAILED]",
+            "original_text": "Is the court blue?",
+            "perturbed_text": "Is the court blue?"
+        },
+        {
+            "change_id": "9 (52%) --> [SKIPPED]",
+            "original_text": "Is he playing doubles?",
+            "perturbed_text": "Is he playing doubles?"
+        },
+        {
+            "change_id": "3 (71%) --> [SKIPPED]",
+            "original_text": "Are both men wearing hats?",
+            "perturbed_text": "Are both men wearing hats?"
+        },
+        {
+            "change_id": "9 (85%) --> [FAILED]",
+            "original_text": "Are these two men professional tennis players?",
+            "perturbed_text": "Are these two men professional tennis players?"
+        },
+        {
+            "change_id": "3 (83%) --> [FAILED]",
+            "original_text": "Is this bread?",
+            "perturbed_text": "Is this bread?"
+        },
+        {
+            "change_word": "gray (26%) --> skateboard (22%)",
+            "change_id": "17 (26%) --> 12 (22%)",
+            "original_text": "How many bins?",
+            "perturbed_text": "How many bin?"
+        },
+        {
+            "change_id": "9 (59%) --> [SKIPPED]",
+            "original_text": "Does this look like a healthy meal?",
+            "perturbed_text": "Does this look like a healthy meal?"
+        },
+        {
+            "change_id": "82 (54%) --> [SKIPPED]",
+            "original_text": "How many exhaust pipes are shown in this photo?",
+            "perturbed_text": "How many exhaust pipes are shown in this photo?"
+        },
+        {
+            "change_id": "9 (85%) --> [FAILED]",
+            "original_text": "Is the silver bike new?",
+            "perturbed_text": "Is the silver bike new?"
+        },
+        {
+            "change_id": "9 (73%) --> [SKIPPED]",
+            "original_text": "Is the grass bright green?",
+            "perturbed_text": "Is the grass bright green?"
+        },
+        {
+            "change_id": "777 (29%) --> [SKIPPED]",
+            "original_text": "What is the bike on?",
+            "perturbed_text": "What is the bike on?"
+        },
+        {
+            "change_id": "3 (12%) --> [SKIPPED]",
+            "original_text": "Why is there a number on this vehicle?",
+            "perturbed_text": "Why is there a number on this vehicle?"
+        },
+        {
+            "change_id": "3 (13%) --> [SKIPPED]",
+            "original_text": "Why is there a number on the vehicle?",
+            "perturbed_text": "Why is there a number on the vehicle?"
+        },
+        {
+            "change_id": "488 (17%) --> [SKIPPED]",
+            "original_text": "Who is the maker of the scooter?",
+            "perturbed_text": "Who is the maker of the scooter?"
+        },
+        {
+            "change_id": "13 (38%) --> [SKIPPED]",
+            "original_text": "What color is the bike on the right?",
+            "perturbed_text": "What color is the bike on the right?"
+        },
+        {
+            "change_id": "958 (89%) --> [FAILED]",
+            "original_text": "Does the bike in the foreground have a single or a double seat?",
+            "perturbed_text": "Does the bike in the foreground have a single or a double seat?"
+        },
+        {
+            "change_id": "9 (58%) --> [FAILED]",
+            "original_text": "Is the blue container on the ground blocking the motorcycle?",
+            "perturbed_text": "Is the blue container on the ground blocking the motorcycle?"
+        }
+    ],
+    "summary": {
+        "successful_attacks": 20,
+        "failed_attacks": 60,
+        "skipped_attacks": 139,
+        "original_accuracy": 36.53,
+        "attack_accuracy_perc": 27.4,
+        "attack_success_rate": 25.0,
+        "avg_word_perturbed": 6.2,
+        "avg_word_perturbed_perc": 19.87,
+        "max_words_changed": 1,
+        "avg_num_queries": 28.91
+    }
+}

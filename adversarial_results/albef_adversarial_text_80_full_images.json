@@ -1,0 +1,526 @@
+{
+    "attack_results": [
+        {
+            "change_id": "down --> forward",
+            "original_text": "Where is he looking?",
+            "perturbed_text": "Accordingly is he looking?"
+        },
+        {
+            "change_id": "watching --> [FAILED]",
+            "original_text": "What are the people in the background doing?",
+            "perturbed_text": "What are the people in the background doing?"
+        },
+        {
+            "change_id": "bench --> [SKIPPED]",
+            "original_text": "What is he on top of?",
+            "perturbed_text": "What is he on top of?"
+        },
+        {
+            "change_id": "unknown --> [SKIPPED]",
+            "original_text": "What website copyrighted the picture?",
+            "perturbed_text": "What website copyrighted the picture?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Is this a creamy soup?",
+            "perturbed_text": "Is this a creamy soup?"
+        },
+        {
+            "change_id": "yes --> no",
+            "original_text": "Is this rice noodle soup?",
+            "perturbed_text": "Is this rice bite soup?"
+        },
+        {
+            "change_id": "spoon --> [SKIPPED]",
+            "original_text": "What is to the right of the soup?",
+            "perturbed_text": "What is to the right of the soup?"
+        },
+        {
+            "change_id": "walking --> crossing",
+            "original_text": "What is the man doing in the street?",
+            "perturbed_text": "What is the copulate doing in the street?"
+        },
+        {
+            "change_id": "1 --> [FAILED]",
+            "original_text": "How many photo's can you see?",
+            "perturbed_text": "How many photo's can you see?"
+        },
+        {
+            "change_id": "ice cream --> [FAILED]",
+            "original_text": "What does the truck on the left sell?",
+            "perturbed_text": "Cette does the truck on the left sell?"
+        },
+        {
+            "change_id": "no --> [SKIPPED]",
+            "original_text": "Why is there a gap between the roof and wall?",
+            "perturbed_text": "Why is there a gap between the roof and wall?"
+        },
+        {
+            "change_id": "yes --> no",
+            "original_text": "Is it daylight in this picture?",
+            "perturbed_text": "Is it alba in this picture?"
+        },
+        {
+            "change_id": "tired --> yes",
+            "original_text": "Why is the cow laying down?",
+            "perturbed_text": "Accordingly is the cow laying down?"
+        },
+        {
+            "change_id": "green --> [SKIPPED]",
+            "original_text": "What color is the grass in this picture?",
+            "perturbed_text": "What color is the grass in this picture?"
+        },
+        {
+            "change_id": "yes --> [SKIPPED]",
+            "original_text": "Did the batter hit the ball?",
+            "perturbed_text": "Did the batter hit the ball?"
+        },
+        {
+            "change_id": "1 --> yes",
+            "original_text": "How many are playing ball?",
+            "perturbed_text": "Forma many are playing ball?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Is there a chain link fence in the image?",
+            "perturbed_text": "Is there a chain link fence in the image?"
+        },
+        {
+            "change_id": "yes --> [FAILED]",
+            "original_text": "Is the boy playing baseball?",
+            "perturbed_text": "Is the boy playing baseball?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Is that a folding chair?",
+            "perturbed_text": "Is that a folding chair?"
+        },
+        {
+            "change_id": "1 --> yes",
+            "original_text": "How many beds?",
+            "perturbed_text": "Motivates many beds?"
+        },
+        {
+            "change_id": "white --> pink",
+            "original_text": "What color is the bedspread?",
+            "perturbed_text": "Anything color is the bedspread?"
+        },
+        {
+            "change_id": "6 --> [SKIPPED]",
+            "original_text": "How many pictures are there?",
+            "perturbed_text": "How many pictures are there?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Are these twin mattresses?",
+            "perturbed_text": "Are these twin mattresses?"
+        },
+        {
+            "change_id": "1 --> 2",
+            "original_text": "How many sources of light are there?",
+            "perturbed_text": "How many sources of brightness are there?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Is this room decorated for the 1970s?",
+            "perturbed_text": "Is this room decorated for the 1970s?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Are the lights on in this room?",
+            "perturbed_text": "Are the lights on in this room?"
+        },
+        {
+            "change_id": "yes --> no",
+            "original_text": "Are the windows big?",
+            "perturbed_text": "Are the acrobat big?"
+        },
+        {
+            "change_id": "leather --> plastic",
+            "original_text": "What is the chair made of?",
+            "perturbed_text": "Alors is the chair made of?"
+        },
+        {
+            "change_id": "yes --> [FAILED]",
+            "original_text": "Is this room in someone's home?",
+            "perturbed_text": "Is this room in someone's home?"
+        },
+        {
+            "change_id": "bedroom --> yes",
+            "original_text": "Which room is this?",
+            "perturbed_text": "Composed room is this?"
+        },
+        {
+            "change_id": "yes --> no",
+            "original_text": "Is the bed white?",
+            "perturbed_text": "Become the bed white?"
+        },
+        {
+            "change_id": "no --> yes",
+            "original_text": "Could this be a hotel room?",
+            "perturbed_text": "Could this be a accommodations room?"
+        },
+        {
+            "change_id": "yes --> no",
+            "original_text": "Is the bed made?",
+            "perturbed_text": "Is the bed brought?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Are there bed headboards present in the photo?",
+            "perturbed_text": "Are there bed headboards present in the photo?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Is there a mirror in the room?",
+            "perturbed_text": "Is there a mirror in the room?"
+        },
+        {
+            "change_id": "bedroom --> [FAILED]",
+            "original_text": "What kind of room is this?",
+            "perturbed_text": "What kind of room is this?"
+        },
+        {
+            "change_id": "1 --> [FAILED]",
+            "original_text": "How many chairs are in the photo?",
+            "perturbed_text": "How many chairs are in the photo?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Is the desk cluttered?",
+            "perturbed_text": "Is the desk cluttered?"
+        },
+        {
+            "change_id": "yes --> no",
+            "original_text": "Has the bed been made?",
+            "perturbed_text": "Has the asleep been made?"
+        },
+        {
+            "change_id": "1 --> [FAILED]",
+            "original_text": "How many seats are there?",
+            "perturbed_text": "How many seats are there?"
+        },
+        {
+            "change_id": "6 --> [SKIPPED]",
+            "original_text": "How many frames are on the wall?",
+            "perturbed_text": "How many frames are on the wall?"
+        },
+        {
+            "change_id": "white --> [FAILED]",
+            "original_text": "What color are the walls?",
+            "perturbed_text": "What color are the walls?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Are there any boxes in the room?",
+            "perturbed_text": "Are there any boxes in the room?"
+        },
+        {
+            "change_id": "yes --> [FAILED]",
+            "original_text": "Could this be a multi-purpose room?",
+            "perturbed_text": "Could this be a multi-purpose room?"
+        },
+        {
+            "change_id": "leopard --> [SKIPPED]",
+            "original_text": "What animal print does that chair resemble?",
+            "perturbed_text": "What animal print does that chair resemble?"
+        },
+        {
+            "change_id": "chair --> foot",
+            "original_text": "What is behind the foot of the bed?",
+            "perturbed_text": "What is arse the foot of the bed?"
+        },
+        {
+            "change_id": "queen --> twin",
+            "original_text": "What is the size of the bed?",
+            "perturbed_text": "Alors is the size of the bed?"
+        },
+        {
+            "change_id": "6 --> [SKIPPED]",
+            "original_text": "How many pictures on the wall?",
+            "perturbed_text": "How many pictures on the wall?"
+        },
+        {
+            "change_id": "yes --> [FAILED]",
+            "original_text": "Will this kid leave the powdered sugar on his face?",
+            "perturbed_text": "Will this kid leave the powdered sugar on his face?"
+        },
+        {
+            "change_id": "donut --> yes",
+            "original_text": "What is the child eating?",
+            "perturbed_text": "Alors is the child eating?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Is this person wearing a tie?",
+            "perturbed_text": "Is this person wearing a tie?"
+        },
+        {
+            "change_id": "blonde --> white",
+            "original_text": "What color is the kids hair?",
+            "perturbed_text": "What color is the kids balding?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Is the man's tie purple?",
+            "perturbed_text": "Is the man's tie purple?"
+        },
+        {
+            "change_id": "forest --> yes",
+            "original_text": "Where was the picture taken of the man?",
+            "perturbed_text": "Accordingly was the picture taken of the man?"
+        },
+        {
+            "change_id": "hat --> yes",
+            "original_text": "What is the man wearing on his head?",
+            "perturbed_text": "Any is the man wearing on his head?"
+        },
+        {
+            "change_id": "no --> yes",
+            "original_text": "Is this a designer tie?",
+            "perturbed_text": "Entails this a designer tie?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Is this photo color?",
+            "perturbed_text": "Is this photo color?"
+        },
+        {
+            "change_id": "out --> [FAILED]",
+            "original_text": "Does the door open inward or outward?",
+            "perturbed_text": "Does the door open inward or outward?"
+        },
+        {
+            "change_id": "yes --> no",
+            "original_text": "Is there a drainage in the pic?",
+            "perturbed_text": "Is there a aqueduct in the pic?"
+        },
+        {
+            "change_id": "camping --> [SKIPPED]",
+            "original_text": "What does the sentence on the top say?",
+            "perturbed_text": "What does the sentence on the top say?"
+        },
+        {
+            "change_id": "bus --> [SKIPPED]",
+            "original_text": "What kind of vehicle is the RV pulling on the bottom picture?",
+            "perturbed_text": "What kind of vehicle is the RV pulling on the bottom picture?"
+        },
+        {
+            "change_id": "background --> [SKIPPED]",
+            "original_text": "Where is the camping tent?",
+            "perturbed_text": "Where is the camping tent?"
+        },
+        {
+            "change_id": "white --> red",
+            "original_text": "What color are the gym shoes?",
+            "perturbed_text": "What blob are the gym shoes?"
+        },
+        {
+            "change_id": "yes --> [FAILED]",
+            "original_text": "Is there a red sandal here?",
+            "perturbed_text": "Is there a red sandal here?"
+        },
+        {
+            "change_id": "red --> clear",
+            "original_text": "What color is the flip flop?",
+            "perturbed_text": "What bluish is the flip flop?"
+        },
+        {
+            "change_id": "yes --> no",
+            "original_text": "Are there players in the dugout?",
+            "perturbed_text": "Are there players in the basin?"
+        },
+        {
+            "change_id": "no --> yes",
+            "original_text": "Is the battery looking at the ball?",
+            "perturbed_text": "Be the battery looking at the ball?"
+        },
+        {
+            "change_id": "3 --> 1",
+            "original_text": "How many people are on the field?",
+            "perturbed_text": "How batches people are on the field?"
+        },
+        {
+            "change_id": "4 --> yes",
+            "original_text": "How many signs?",
+            "perturbed_text": "Hence many signs?"
+        },
+        {
+            "change_id": "white --> yellow",
+            "original_text": "What color is the Salisbury Rd. sign?",
+            "perturbed_text": "What blob is the Salisbury Rd. sign?"
+        },
+        {
+            "change_id": "victoria --> [SKIPPED]",
+            "original_text": "What does the last sign say?",
+            "perturbed_text": "What does the last sign say?"
+        },
+        {
+            "change_id": "red --> [FAILED]",
+            "original_text": "What color is the sign?",
+            "perturbed_text": "What blob is the sign?"
+        },
+        {
+            "change_id": "no --> right",
+            "original_text": "Can you turn right or left in the tunnel?",
+            "perturbed_text": "Achievable you turn right or left in the tunnel?"
+        },
+        {
+            "change_id": "green --> tree",
+            "original_text": "What color is the plant?",
+            "perturbed_text": "What blob is the plant?"
+        },
+        {
+            "change_id": "black --> pink",
+            "original_text": "What color is the woman's shirt on the left?",
+            "perturbed_text": "What blob is the woman's shirt on the left?"
+        },
+        {
+            "change_id": "wine --> [FAILED]",
+            "original_text": "What type of beverage is being displayed?",
+            "perturbed_text": "What type of beverage is being displayed?"
+        },
+        {
+            "change_id": "fashion --> [FAILED]",
+            "original_text": "Why are some people wearing hats?",
+            "perturbed_text": "Why are some people wearing hats?"
+        },
+        {
+            "change_id": "wine tasting --> [FAILED]",
+            "original_text": "What kind of event are the people involved in?",
+            "perturbed_text": "What kind of event are the people involved in?"
+        },
+        {
+            "change_id": "0 --> [SKIPPED]",
+            "original_text": "How many skyscrapers are there?",
+            "perturbed_text": "How many skyscrapers are there?"
+        },
+        {
+            "change_id": "brown --> building",
+            "original_text": "What is the color of the building in the background?",
+            "perturbed_text": "What is the blob of the building in the background?"
+        },
+        {
+            "change_id": "yes --> [FAILED]",
+            "original_text": "Is there a tree in front of the building?",
+            "perturbed_text": "Is there a tree in front of the building?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Is there a person riding a bike?",
+            "perturbed_text": "Is there a person riding a bike?"
+        },
+        {
+            "change_id": "no --> [SKIPPED]",
+            "original_text": "Are there lights on in the two buildings?",
+            "perturbed_text": "Are there lights on in the two buildings?"
+        },
+        {
+            "change_id": "5 --> [SKIPPED]",
+            "original_text": "How many stories is the building on the left?",
+            "perturbed_text": "How many stories is the building on the left?"
+        },
+        {
+            "change_id": "no --> yes",
+            "original_text": "Is this a hospital?",
+            "perturbed_text": "Carries this a hospital?"
+        },
+        {
+            "change_id": "0 --> [FAILED]",
+            "original_text": "How many umbrellas do you see?",
+            "perturbed_text": "How many umbrellas do you see?"
+        },
+        {
+            "change_id": "1 --> brown",
+            "original_text": "How many colors is the building on the right painted?",
+            "perturbed_text": "Avenues many colors is the building on the right painted?"
+        },
+        {
+            "change_id": "backpack --> no",
+            "original_text": "What is on the boy's back walking?",
+            "perturbed_text": "Dunno is on the boy's back walking?"
+        },
+        {
+            "change_id": "1 --> [SKIPPED]",
+            "original_text": "How many modes of transportation are depicted?",
+            "perturbed_text": "How many modes of transportation are depicted?"
+        },
+        {
+            "change_id": "brown --> brick",
+            "original_text": "What color is the building?",
+            "perturbed_text": "What blob is the building?"
+        },
+        {
+            "change_id": "no --> [SKIPPED]",
+            "original_text": "Is it still snowing in the picture?",
+            "perturbed_text": "Is it still snowing in the picture?"
+        },
+        {
+            "change_id": "yes --> [FAILED]",
+            "original_text": "Does this appear to be a photo of multiple exposures of the black clad snowboarder?",
+            "perturbed_text": "Does this appear to be a photo of multiple exposures of the black clad snowboarder?"
+        },
+        {
+            "change_id": "7 --> [SKIPPED]",
+            "original_text": "How many people can you see in the picture?",
+            "perturbed_text": "How many people can you see in the picture?"
+        },
+        {
+            "change_id": "no --> yes",
+            "original_text": "Is this an adult party?",
+            "perturbed_text": "Is this an cropped party?"
+        },
+        {
+            "change_id": "birthday --> food",
+            "original_text": "What is being celebrated?",
+            "perturbed_text": "What is being distinguished?"
+        },
+        {
+            "change_id": "child --> [SKIPPED]",
+            "original_text": "Who is in front of the cake with candles?",
+            "perturbed_text": "Who is in front of the cake with candles?"
+        },
+        {
+            "change_id": "train --> yes",
+            "original_text": "What is this vehicle?",
+            "perturbed_text": "Alors is this vehicle?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Can you see the hook up for the train?",
+            "perturbed_text": "Can you see the hook up for the train?"
+        },
+        {
+            "change_id": "yes --> [FAILED]",
+            "original_text": "Is this train at the station?",
+            "perturbed_text": "Is this train at the station?"
+        },
+        {
+            "change_id": "shadow --> no",
+            "original_text": "What is cast?",
+            "perturbed_text": "Alors is cast?"
+        },
+        {
+            "change_id": "shelter --> [SKIPPED]",
+            "original_text": "What is the background metal structure?",
+            "perturbed_text": "What is the background metal structure?"
+        },
+        {
+            "change_id": "no --> [FAILED]",
+            "original_text": "Is there smoke coming out of the train?",
+            "perturbed_text": "Is there smoke coming out of the train?"
+        }
+    ],
+    "summary": {
+        "successful_attacks": 43,
+        "failed_attacks": 37,
+        "skipped_attacks": 22,
+        "original_accuracy": 78.43,
+        "attack_accuracy_perc": 36.27,
+        "attack_success_rate": 53.75,
+        "avg_word_perturbed": 6.49,
+        "avg_word_perturbed_perc": 18.73,
+        "max_words_changed": 1,
+        "avg_num_queries": 30.0
+    }
+}

@@ -1,0 +1,544 @@
+{
+    "attack_results": [
+        {
+            "change_word": "down (76%) --> skate park (44%)",
+            "change_id": "267 (76%) --> 1120 (44%)",
+            "original_text": "Where is he looking?",
+            "perturbed_text": "Where is he expect?"
+        },
+        {
+            "change_word": "watching (94%) --> skateboarding (81%)",
+            "change_id": "1559 (94%) --> 431 (81%)",
+            "original_text": "What are the people in the background doing?",
+            "perturbed_text": "What are the people in the scope doing?"
+        },
+        {
+            "change_word": "clock (59%) --> black and white (95%)",
+            "change_id": "81 (59%) --> 11 (95%)",
+            "original_text": "What is he on top of?",
+            "perturbed_text": "What is he on acme of?"
+        },
+        {
+            "change_id": "545 (10%) --> [FAILED]",
+            "original_text": "What website copyrighted the picture?",
+            "perturbed_text": "What website copyrighted the picture?"
+        },
+        {
+            "change_word": "brushing teeth (96%) --> orange (44%)",
+            "change_id": "9 (96%) --> 3 (44%)",
+            "original_text": "Is this a creamy soup?",
+            "perturbed_text": "follow this a creamy soup?"
+        },
+        {
+            "change_word": "orange (100%) --> brushing teeth (92%)",
+            "change_id": "3 (100%) --> 9 (92%)",
+            "original_text": "Is this rice noodle soup?",
+            "perturbed_text": "Is this rice bonce soup?"
+        },
+        {
+            "change_word": "chopsticks (95%) --> full (10%)",
+            "change_id": "727 (95%) --> 610 (10%)",
+            "original_text": "What is to the right of the soup?",
+            "perturbed_text": "What is to the compensate of the soup?"
+        },
+        {
+            "change_word": "walking (95%) --> driving (57%)",
+            "change_id": "157 (95%) --> 494 (57%)",
+            "original_text": "What is the man doing in the street?",
+            "perturbed_text": "What is the valet doing in the street?"
+        },
+        {
+            "change_id": "12 (53%) --> [FAILED]",
+            "original_text": "How many photo's can you see?",
+            "perturbed_text": "How many photo's can you see?"
+        },
+        {
+            "change_word": "ice cream (79%) --> moving (11%)",
+            "change_id": "1473 (79%) --> 1227 (11%)",
+            "original_text": "What does the truck on the left sell?",
+            "perturbed_text": "What does the truck on the left deal?"
+        },
+        {
+            "change_id": "3 (29%) --> [FAILED]",
+            "original_text": "Why is there a gap between the roof and wall?",
+            "perturbed_text": "Why is there a col between the roof and wall?"
+        },
+        {
+            "change_id": "3 (100%) --> [FAILED]",
+            "original_text": "Is it daylight in this picture?",
+            "perturbed_text": "Is it daylight in this picture?"
+        },
+        {
+            "change_word": "tired (58%) --> barn (37%)",
+            "change_id": "936 (58%) --> 363 (37%)",
+            "original_text": "Why is the cow laying down?",
+            "perturbed_text": "wherefore is the cow laying down?"
+        },
+        {
+            "change_id": "16 (87%) --> [FAILED]",
+            "original_text": "What color is the grass in this picture?",
+            "perturbed_text": "What color is the grass in this picture?"
+        },
+        {
+            "change_id": "9 (70%) --> [FAILED]",
+            "original_text": "Did the batter hit the ball?",
+            "perturbed_text": "Did the batter hit the ball?"
+        },
+        {
+            "change_id": "12 (100%) --> [FAILED]",
+            "original_text": "How many are playing ball?",
+            "perturbed_text": "How many are playing ball?"
+        },
+        {
+            "change_id": "9 (100%) --> [FAILED]",
+            "original_text": "Is there a chain link fence in the image?",
+            "perturbed_text": "Is there a chain link fence in the image?"
+        },
+        {
+            "change_id": "3 (100%) --> [FAILED]",
+            "original_text": "Is the boy playing baseball?",
+            "perturbed_text": "Is the boy playing baseball?"
+        },
+        {
+            "change_word": "brushing teeth (100%) --> orange (96%)",
+            "change_id": "9 (100%) --> 3 (96%)",
+            "original_text": "Is that a folding chair?",
+            "perturbed_text": "Is that a close chair?"
+        },
+        {
+            "change_word": "skateboard (100%) --> table (99%)",
+            "change_id": "12 (100%) --> 82 (99%)",
+            "original_text": "How many beds?",
+            "perturbed_text": "How many hump?"
+        },
+        {
+            "change_id": "120 (45%) --> [SKIPPED]",
+            "original_text": "What color is the bedspread?",
+            "perturbed_text": "What color is the bedspread?"
+        },
+        {
+            "change_id": "90 (33%) --> [SKIPPED]",
+            "original_text": "How many pictures are there?",
+            "perturbed_text": "How many pictures are there?"
+        },
+        {
+            "change_id": "9 (86%) --> [FAILED]",
+            "original_text": "Are these twin mattresses?",
+            "perturbed_text": "Are these twin mattresses?"
+        },
+        {
+            "change_id": "12 (87%) --> [FAILED]",
+            "original_text": "How many sources of light are there?",
+            "perturbed_text": "How many sources of light are there?"
+        },
+        {
+            "change_word": "brushing teeth (89%) --> orange (93%)",
+            "change_id": "9 (89%) --> 3 (93%)",
+            "original_text": "Is this room decorated for the 1970s?",
+            "perturbed_text": "Is this room adorn for the 1970s?"
+        },
+        {
+            "change_id": "9 (100%) --> [FAILED]",
+            "original_text": "Are the lights on in this room?",
+            "perturbed_text": "Are the lights on in this room?"
+        },
+        {
+            "change_id": "3 (99%) --> [FAILED]",
+            "original_text": "Are the windows big?",
+            "perturbed_text": "Are the windows big?"
+        },
+        {
+            "change_id": "1066 (66%) --> [FAILED]",
+            "original_text": "What is the chair made of?",
+            "perturbed_text": "What is the chair made of?"
+        },
+        {
+            "change_id": "3 (100%) --> [FAILED]",
+            "original_text": "Is this room in someone's home?",
+            "perturbed_text": "Is this room in someone's home?"
+        },
+        {
+            "change_word": "bedroom (100%) --> pink (25%)",
+            "change_id": "250 (100%) --> 43 (25%)",
+            "original_text": "Which room is this?",
+            "perturbed_text": "Which way is this?"
+        },
+        {
+            "change_id": "3 (100%) --> [FAILED]",
+            "original_text": "Is the bed white?",
+            "perturbed_text": "Is the bed white?"
+        },
+        {
+            "change_id": "9 (100%) --> [FAILED]",
+            "original_text": "Could this be a hotel room?",
+            "perturbed_text": "Could this be a hotel board?"
+        },
+        {
+            "change_id": "3 (98%) --> [FAILED]",
+            "original_text": "Is the bed made?",
+            "perturbed_text": "Is the bed made?"
+        },
+        {
+            "change_id": "9 (100%) --> [FAILED]",
+            "original_text": "Are there bed headboards present in the photo?",
+            "perturbed_text": "Are there bed headboards present in the photo?"
+        },
+        {
+            "change_id": "9 (100%) --> [FAILED]",
+            "original_text": "Is there a mirror in the room?",
+            "perturbed_text": "exist there a mirror in the board?"
+        },
+        {
+            "change_word": "bedroom (98%) --> desk (26%)",
+            "change_id": "250 (98%) --> 461 (26%)",
+            "original_text": "What kind of room is this?",
+            "perturbed_text": "What kind of board is this?"
+        },
+        {
+            "change_word": "skateboard (100%) --> table (97%)",
+            "change_id": "12 (100%) --> 82 (97%)",
+            "original_text": "How many chairs are in the photo?",
+            "perturbed_text": "How many president are in the photo?"
+        },
+        {
+            "change_word": "brushing teeth (100%) --> orange (90%)",
+            "change_id": "9 (100%) --> 3 (90%)",
+            "original_text": "Is the desk cluttered?",
+            "perturbed_text": "embody the desk clutter?"
+        },
+        {
+            "change_id": "3 (80%) --> [FAILED]",
+            "original_text": "Has the bed been made?",
+            "perturbed_text": "Has the bed been made?"
+        },
+        {
+            "change_id": "12 (99%) --> [FAILED]",
+            "original_text": "How many seats are there?",
+            "perturbed_text": "How many seats are there?"
+        },
+        {
+            "change_id": "90 (37%) --> [SKIPPED]",
+            "original_text": "How many frames are on the wall?",
+            "perturbed_text": "How many frames are on the wall?"
+        },
+        {
+            "change_id": "4 (98%) --> [FAILED]",
+            "original_text": "What color are the walls?",
+            "perturbed_text": "What coloration are the walls?"
+        },
+        {
+            "change_word": "brushing teeth (96%) --> orange (99%)",
+            "change_id": "9 (96%) --> 3 (99%)",
+            "original_text": "Are there any boxes in the room?",
+            "perturbed_text": "Are there any corner in the room?"
+        },
+        {
+            "change_word": "orange (100%) --> brushing teeth (100%)",
+            "change_id": "3 (100%) --> 9 (100%)",
+            "original_text": "Could this be a multi-purpose room?",
+            "perturbed_text": "Could this be a multi-purpose board?"
+        },
+        {
+            "change_id": "264 (13%) --> [SKIPPED]",
+            "original_text": "What animal print does that chair resemble?",
+            "perturbed_text": "What animal print does that chair resemble?"
+        },
+        {
+            "change_id": "461 (37%) --> [SKIPPED]",
+            "original_text": "What is behind the foot of the bed?",
+            "perturbed_text": "What is behind the foot of the bed?"
+        },
+        {
+            "change_id": "499 (36%) --> [SKIPPED]",
+            "original_text": "What is the size of the bed?",
+            "perturbed_text": "What is the size of the bed?"
+        },
+        {
+            "change_id": "90 (32%) --> [SKIPPED]",
+            "original_text": "How many pictures on the wall?",
+            "perturbed_text": "How many pictures on the wall?"
+        },
+        {
+            "change_id": "3 (66%) --> [FAILED]",
+            "original_text": "Will this kid leave the powdered sugar on his face?",
+            "perturbed_text": "Will this kid leave the powdered sugar on his face?"
+        },
+        {
+            "change_id": "783 (97%) --> [FAILED]",
+            "original_text": "What is the child eating?",
+            "perturbed_text": "What is the child exhaust?"
+        },
+        {
+            "change_id": "9 (100%) --> [FAILED]",
+            "original_text": "Is this person wearing a tie?",
+            "perturbed_text": "Is this person wearing a tie?"
+        },
+        {
+            "change_id": "937 (100%) --> [FAILED]",
+            "original_text": "What color is the kids hair?",
+            "perturbed_text": "What color is the kids hair?"
+        },
+        {
+            "change_id": "9 (100%) --> [FAILED]",
+            "original_text": "Is the man's tie purple?",
+            "perturbed_text": "Is the man's tie purple?"
+        },
+        {
+            "change_id": "945 (60%) --> [FAILED]",
+            "original_text": "Where was the picture taken of the man?",
+            "perturbed_text": "Where was the picture taken of the man?"
+        },
+        {
+            "change_id": "100 (91%) --> [FAILED]",
+            "original_text": "What is the man wearing on his head?",
+            "perturbed_text": "What is the man wearing on his head?"
+        },
+        {
+            "change_id": "9 (99%) --> [FAILED]",
+            "original_text": "Is this a designer tie?",
+            "perturbed_text": "Is this a designer tie?"
+        },
+        {
+            "change_id": "9 (100%) --> [FAILED]",
+            "original_text": "Is this photo color?",
+            "perturbed_text": "Is this photo color?"
+        },
+        {
+            "change_id": "1405 (87%) --> [SKIPPED]",
+            "original_text": "Does the door open inward or outward?",
+            "perturbed_text": "Does the door open inward or outward?"
+        },
+        {
+            "change_word": "orange (100%) --> brushing teeth (89%)",
+            "change_id": "3 (100%) --> 9 (89%)",
+            "original_text": "Is there a drainage in the pic?",
+            "perturbed_text": "Is there a drain in the pic?"
+        },
+        {
+            "change_id": "134 (4%) --> [SKIPPED]",
+            "original_text": "What does the sentence on the top say?",
+            "perturbed_text": "What does the sentence on the top say?"
+        },
+        {
+            "change_id": "1416 (28%) --> [SKIPPED]",
+            "original_text": "What kind of vehicle is the RV pulling on the bottom picture?",
+            "perturbed_text": "What kind of vehicle is the RV pulling on the bottom picture?"
+        },
+        {
+            "change_word": "woods (32%) --> raft (22%)",
+            "change_id": "1455 (32%) --> 40 (22%)",
+            "original_text": "Where is the camping tent?",
+            "perturbed_text": "Where is the bivouac tent?"
+        },
+        {
+            "change_id": "16 (62%) --> [SKIPPED]",
+            "original_text": "What color are the gym shoes?",
+            "perturbed_text": "What color are the gym shoes?"
+        },
+        {
+            "change_id": "3 (100%) --> [FAILED]",
+            "original_text": "Is there a red sandal here?",
+            "perturbed_text": "Is there a red sandal here?"
+        },
+        {
+            "change_id": "6 (99%) --> [FAILED]",
+            "original_text": "What color is the flip flop?",
+            "perturbed_text": "What color is the flip flop?"
+        },
+        {
+            "change_word": "orange (100%) --> brushing teeth (95%)",
+            "change_id": "3 (100%) --> 9 (95%)",
+            "original_text": "Are there players in the dugout?",
+            "perturbed_text": "Are there players in the bunker?"
+        },
+        {
+            "change_id": "3 (93%) --> [SKIPPED]",
+            "original_text": "Is the battery looking at the ball?",
+            "perturbed_text": "Is the battery looking at the ball?"
+        },
+        {
+            "change_word": "bear (80%) --> table (45%)",
+            "change_id": "32 (80%) --> 82 (45%)",
+            "original_text": "How many people are on the field?",
+            "perturbed_text": "How many mass are on the field?"
+        },
+        {
+            "change_word": "vanilla (50%) --> table (99%)",
+            "change_id": "53 (50%) --> 82 (99%)",
+            "original_text": "How many signs?",
+            "perturbed_text": "How many house?"
+        },
+        {
+            "change_id": "4 (45%) --> [FAILED]",
+            "original_text": "What color is the Salisbury Rd. sign?",
+            "perturbed_text": "What color is the Salisbury Rd. sign?"
+        },
+        {
+            "change_id": "134 (6%) --> [SKIPPED]",
+            "original_text": "What does the last sign say?",
+            "perturbed_text": "What does the last sign say?"
+        },
+        {
+            "change_id": "6 (62%) --> [SKIPPED]",
+            "original_text": "What color is the sign?",
+            "perturbed_text": "What color is the sign?"
+        },
+        {
+            "change_id": "9 (49%) --> [FAILED]",
+            "original_text": "Can you turn right or left in the tunnel?",
+            "perturbed_text": "Can you turn right or left in the tunnel?"
+        },
+        {
+            "change_id": "14 (100%) --> [FAILED]",
+            "original_text": "What color is the plant?",
+            "perturbed_text": "What color is the plant?"
+        },
+        {
+            "change_id": "30 (98%) --> [FAILED]",
+            "original_text": "What color is the woman's shirt on the left?",
+            "perturbed_text": "What color is the woman's shirt on the left?"
+        },
+        {
+            "change_word": "wine (100%) --> unknown (4%)",
+            "change_id": "239 (100%) --> 545 (4%)",
+            "original_text": "What type of beverage is being displayed?",
+            "perturbed_text": "What character of potable is being displayed?"
+        },
+        {
+            "change_id": "1964 (15%) --> [SKIPPED]",
+            "original_text": "Why are some people wearing hats?",
+            "perturbed_text": "Why are some people wearing hats?"
+        },
+        {
+            "change_id": "2541 (86%) --> [FAILED]",
+            "original_text": "What kind of event are the people involved in?",
+            "perturbed_text": "What kind of event are the people involved in?"
+        },
+        {
+            "change_id": "82 (98%) --> [SKIPPED]",
+            "original_text": "How many skyscrapers are there?",
+            "perturbed_text": "How many skyscrapers are there?"
+        },
+        {
+            "change_id": "59 (100%) --> [FAILED]",
+            "original_text": "What is the color of the building in the background?",
+            "perturbed_text": "What is the color of the building in the background?"
+        },
+        {
+            "change_id": "3 (100%) --> [FAILED]",
+            "original_text": "Is there a tree in front of the building?",
+            "perturbed_text": "Is there a tree in front of the building?"
+        },
+        {
+            "change_id": "9 (98%) --> [FAILED]",
+            "original_text": "Is there a person riding a bike?",
+            "perturbed_text": "Is there a person riding a bike?"
+        },
+        {
+            "change_id": "9 (93%) --> [SKIPPED]",
+            "original_text": "Are there lights on in the two buildings?",
+            "perturbed_text": "Are there lights on in the two buildings?"
+        },
+        {
+            "change_id": "38 (31%) --> [SKIPPED]",
+            "original_text": "How many stories is the building on the left?",
+            "perturbed_text": "How many stories is the building on the left?"
+        },
+        {
+            "change_word": "brushing teeth (98%) --> orange (99%)",
+            "change_id": "9 (98%) --> 3 (99%)",
+            "original_text": "Is this a hospital?",
+            "perturbed_text": "embody this a hospital?"
+        },
+        {
+            "change_id": "82 (100%) --> [FAILED]",
+            "original_text": "How many umbrellas do you see?",
+            "perturbed_text": "How many umbrellas do you see?"
+        },
+        {
+            "change_id": "17 (46%) --> [SKIPPED]",
+            "original_text": "How many colors is the building on the right painted?",
+            "perturbed_text": "How many colors is the building on the right painted?"
+        },
+        {
+            "change_word": "backpack (83%) --> nothing (27%)",
+            "change_id": "310 (83%) --> 134 (27%)",
+            "original_text": "What is on the boy's back walking?",
+            "perturbed_text": "What is on the boy's backbone walking?"
+        },
+        {
+            "change_id": "82 (86%) --> [FAILED]",
+            "original_text": "How many modes of transportation are depicted?",
+            "perturbed_text": "How many modes of transportation are depicted?"
+        },
+        {
+            "change_id": "59 (100%) --> [FAILED]",
+            "original_text": "What color is the building?",
+            "perturbed_text": "What coloration is the building?"
+        },
+        {
+            "change_id": "9 (63%) --> [SKIPPED]",
+            "original_text": "Is it still snowing in the picture?",
+            "perturbed_text": "Is it still snowing in the picture?"
+        },
+        {
+            "change_id": "3 (95%) --> [FAILED]",
+            "original_text": "Does this appear to be a photo of multiple exposures of the black clad snowboarder?",
+            "perturbed_text": "Does this appear to be a photo of multiple exposures of the black clad snowboarder?"
+        },
+        {
+            "change_id": "255 (23%) --> [FAILED]",
+            "original_text": "How many people can you see in the picture?",
+            "perturbed_text": "How many people can you see in the picture?"
+        },
+        {
+            "change_word": "brushing teeth (100%) --> orange (100%)",
+            "change_id": "9 (100%) --> 3 (100%)",
+            "original_text": "Is this an adult party?",
+            "perturbed_text": "Is this an pornographic party?"
+        },
+        {
+            "change_word": "birthday (100%) --> nothing (22%)",
+            "change_id": "144 (100%) --> 134 (22%)",
+            "original_text": "What is being celebrated?",
+            "perturbed_text": "What is being fete?"
+        },
+        {
+            "change_id": "806 (68%) --> [FAILED]",
+            "original_text": "Who is in front of the cake with candles?",
+            "perturbed_text": "Who is in presence of the cake with candles?"
+        },
+        {
+            "change_id": "521 (100%) --> [FAILED]",
+            "original_text": "What is this vehicle?",
+            "perturbed_text": "What is this fomite?"
+        },
+        {
+            "change_id": "9 (99%) --> [FAILED]",
+            "original_text": "Can you see the hook up for the train?",
+            "perturbed_text": "Can you see the hook up for the train?"
+        },
+        {
+            "change_id": "3 (100%) --> [FAILED]",
+            "original_text": "Is this train at the station?",
+            "perturbed_text": "Is this train at the station?"
+        },
+        {
+            "change_id": "279 (75%) --> [FAILED]",
+            "original_text": "What is cast?",
+            "perturbed_text": "What is cast?"
+        }
+    ],
+    "summary": {
+        "successful_attacks": 28,
+        "failed_attacks": 52,
+        "skipped_attacks": 20,
+        "original_accuracy": 80.0,
+        "attack_accuracy_perc": 52.0,
+        "attack_success_rate": 35.0,
+        "avg_word_perturbed": 6.48,
+        "avg_word_perturbed_perc": 20.15,
+        "max_words_changed": 2,
+        "avg_num_queries": 27.8
+    }
+}

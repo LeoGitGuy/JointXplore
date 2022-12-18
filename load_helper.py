@@ -28,7 +28,7 @@ def filename_mapping(file_names, root):
 	id_to_filename = {v:k for k,v in filename_to_id.items()}   
 	return filename_to_id, id_to_filename
 
-def annotations_preprocessing(config, annotations):
+def annotations_preprocessing(config, annotations, model_type):
 	for annotation in tqdm(annotations):
 		answers = annotation['answers']
 		answer_count = {}
@@ -40,7 +40,10 @@ def annotations_preprocessing(config, annotations):
 		for answer in answer_count:
 			if answer not in list(config.label2id.keys()):
 				continue
-			labels.append(config.label2id[answer])
+			if model_type == "vilt":
+				labels.append(config.label2id[answer])
+			elif model_type == "albef":
+				labels.append(answer)
 			score = get_score(answer_count[answer])
 			scores.append(score)
 		annotation['labels'] = labels
@@ -76,25 +79,27 @@ def get_dataset_and_model(model_type, config, id_to_filename, device, questions,
         #try: 
         os.chdir("./LAVIS")
         from lavis.models import load_model_and_preprocess
-        model, vis_processors, processor = load_model_and_preprocess(name="albef_vqa", model_type="vqav2", is_eval=True, device=device)
+        model, vis_processor, txt_processor = load_model_and_preprocess(name="albef_vqa", model_type="vqav2", is_eval=True, device=device)
+        processor = (vis_processor, txt_processor)
+        #model, vis_processors, processor = load_model_and_preprocess(name="albef_vqa", model_type="vqav2", is_eval=True, device=device)
         os.chdir("../")
         #except:
         #    raise("Import error")
         if not use_rnd:
             dataset = VQADataset_Albef(questions=questions,
                         annotations=annotations,
-                        vis_processor = vis_processors, 
-                        txt_processor = processor,
+                        vis_processor = processor[0], 
+                        txt_processor = processor[1],
                         config = config,
                         id_to_filename = id_to_filename)
         else:
             dataset = VQADataset_Albef_random_img(questions=questions,
                         annotations=annotations,
-                        vis_processor = vis_processors, 
-                        txt_processor = processor,
+                        vis_processor = processor[0], 
+                        txt_processor = processor[1],
                         config = config,
                         id_to_filename = id_to_filename)
-    return dataset, model, processor, answer_list
+    return dataset, model, answer_list, processor
 
 
 ### For Vilt Model

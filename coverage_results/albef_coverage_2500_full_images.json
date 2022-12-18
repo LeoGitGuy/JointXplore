@@ -1,0 +1,12 @@
+{
+    "KSECTION": {
+        "text_decoder": 0.9779948592185974
+    },
+    "BOUNDARY": {
+        "text_decoder": 0.3385416865348816
+    },
+    "STRONG": {
+        "text_decoder": 0.3697916865348816
+    },
+    "Accuracy": 0.85
+}
