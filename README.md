@@ -1,8 +1,6 @@
 # JointXplore - Testing and Exploring Joint Visual-NLP Networks
 
-<p align="center"><img width="350" src="./docs/model.png"></p>
-
-This is the official repository of my report [**JointXplore - Testing and Exploring Joint Visual-NLP Networks**](./docs/3D_Visual_Question_Answering.pdf) by Leonard Schenk for the course Testing and Verification in Machine Learning.
+This is the official repository of my report [**JointXplore - Testing and Exploring Joint Visual-NLP Networks**](./JointXplore.pdf) by Leonard Schenk for the course Testing and Verification in Machine Learning.
 ## Abstract
 There is no software engineering without testing. This
 sentence has always been true and is even more important
