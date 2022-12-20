@@ -54,22 +54,22 @@ python run.py --data_path <data_path="./data/">
 
 Examples:
 
-Coverage regions with ViLT and full images:
+**Coverage regions with ViLT and full images:**
 ```shell
 python run.py --task "coverage_regions" --model "vilt" --num_samples 5000
 ```
 
-Coverage metrics with ALBEF and random images:
+**Coverage metrics with ALBEF and random images:**
 ```shell
 python run.py --task "coverage" --model "albef" --num_samples 2500 --use_rnd
 ```
 
-Adversarial Attack with ViLT and random images:
+**Adversarial Attack with ViLT and random images:**
 ```shell
 python run.py --task "adversarial_text" --model "vilt" --num_attacks 80 --use_rnd
 ```
 
-
+For more training options and explanations, please run scripts/train.py -h.
 
 ## Acknowledgements
 I would like to thank [Salesforce/LAVIS](https://github.com/salesforce/LAVIS) for the ALBEF model, [dandelin/ViLT](https://github.com/dandelin/ViLT) ViLT model on [huggingface](https://huggingface.co/dandelin/vilt-b32-finetuned-vqa) and [visualqa](https://visualqa.org/download.html) for the dataset.
