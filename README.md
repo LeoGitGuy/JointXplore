@@ -1,38 +1,74 @@
-# BounWiki: A transformer-based QA-Engine for Bogazici University
+# JointXplore - Testing and Exploring Joint Visual-NLP Networks
 
-This is the official repository of my report [**BounWiki: A transformer-based QA-Engine for Bogazici University**](./JointXplore.pdf) by Leonard Schenk for the course Transformer Based Pretraining in Natural Language Processing.
+This is the official repository of my report [**JointXplore - Testing and Exploring Joint Visual-NLP Networks**](./JointXplore.pdf) by Leonard Schenk for the course Testing and Verification in Machine Learning.
 ## Abstract
-In this research, we propose the use of a transformer-based neural network for answering questions about Bogazici University. The proposed architecture utilizes a context embedding space to retrieve relevant documents based on similarity to an initial query and employs reader models to extract or generate the corresponding answer. We also conduct a comprehensive study comparing various models and perform experiments with different subsets of the context and validation dataset to evaluate the strengths and weaknesses of our approach. Results indicate that larger, more capable models tend to perform better, but still struggle with certain aspects of the context and validation dataset. To facilitate further research on this topic, besides this codebase, a demo version can be accessed on [Huggingface](https://huggingface.co/spaces/LeoGitGuy/BounWiki).
-## Rerunning Evaluation Experiments
+There is no software engineering without testing. This
+sentence has always been true and is even more important
+in the light of probabilistic, potentially safety-critical neural
+networks. Few work has been conducted [^robust][^measure] to test
+multimodal networks on tasks such as Visual Question Answering
+(VQA). To this end, this work presents three different
+experiments that measure accuracy, coverage and robustness
+on two different multimodal neural network architectures.
+Additionally, this work examines the effect of using
+only the textual input to perform VQA in each of these settings.
+The results reveal that both architectures have a relatively
+high performance when using only text. Furthermore,
+different coverage metrics show that the text input alone discovers
+less internal states compared to the combined visionlanguage
+input. Finally, using state of the art adversarial
+attack methods point out the vulnerability of multimodal
+neural networks.
 
-A tutorial on how to run the experiments is explained in the jupyter notebook [BounWikiExperiments](./BounWikiExperiments.ipynb).
-Alternatively, they experiments can also be executed in a standard python environment by following these steps:
+[^robust]: Kim, Jaekyum, et al. "Robust deep multi-modal learning based on gated information fusion network." Asian Conference on Computer Vision. Springer, Cham, 2018.
+[^measure]: Wang, Xuezhi, Haohan Wang, and Diyi Yang. "Measure and Improve Robustness in NLP Models: A Survey." arXiv preprint arXiv:2112.08313 (2021).
+## Installation
 
-### Installation
-Install requirements with:
+1. Install requirements with:
 ```shell
 pip install -r requirements.txt
 ```
-### Usage
+2. In root folder, install [LAVIS](https://github.com/salesforce/lavis) as described in in the [official repository](https://github.com/salesforce/lavis#installation)
+
+## Dataset
+
+1. Download VQA 2.0 train and validation set incl. images from the [official webpage](https://visualqa.org/download.html) and save it under  `data/`
+
+2. run
+```shell
+python load_helper.py
+```
+to create pre-filtered datasets without greyscale images and with smaller size
+
+## Usage
 
 The code can be run with the following command:
 ```shell
-python run.py --context "processed_website_text" "processed_website_tables" 
-               --text_reader "bert-base" 
-               --table_reader "tapas" 
-               --api-key ""
-               --seperate_evaluation
-               --top_k 1
+python run.py --data_path <data_path="./data/">  
+--task <["coverage_regions", "coverage", "adversarial_text"]> --model <["vilt", "albef"]> 
+--use_rnd
+--num_samples <[2500 (coverage), 5000 (coverage_regions)]> --activations_file <path to file that was saved after coverage regions>
 ```
 
-for more options and detailed information on each option please run `python run.py -h`
+Examples:
 
-## Running the demo app
+**Coverage regions with ViLT and full images:**
+```shell
+python run.py --task "coverage_regions" --model "vilt" --num_samples 5000
+```
 
-#### Option 1: Gradio
+**Coverage metrics with ALBEF and random images:**
+```shell
+python run.py --task "coverage" --model "albef" --num_samples 2500 --use_rnd
+```
 
-Use Huggingface to directly host gradio applications (see [here](https://huggingface.co/docs/hub/spaces-sdks-gradio)). To do this create a new gradio space, add all files from this repository and the `app.py` file will automatically load the application. Alternatively this file can also be used to build a docker container or the app from huggingface can be embedded into other websites as iframe (see [here](https://huggingface.co/docs/hub/spaces-sdks-gradio#embed-gradio-spaces-on-other-webpages))
+**Adversarial Attack with ViLT and random images:**
+```shell
+python run.py --task "adversarial_text" --model "vilt" --num_attacks 80 --use_rnd
+```
 
-#### Option 2: Docker
-Another repository was created at [huggingface/BounWiki](https://huggingface.co/spaces/LeoGitGuy/BounWiki/tree/main), which contains a Dockerfile, a main.py file using Fastapi and a static folder with HTML, CSS and Javascript for serving the application. If you want to modify this, you can clone it directly from there.
-It is already hosted on a [docker space](https://huggingface.co/spaces/LeoGitGuy/BounWiki) in huggingface.
+For more training options and explanations, please run scripts/train.py -h.
+
+## Acknowledgements
+I would like to thank [Salesforce/LAVIS](https://github.com/salesforce/LAVIS) for the ALBEF model, [dandelin/ViLT](https://github.com/dandelin/ViLT) ViLT model on [huggingface](https://huggingface.co/dandelin/vilt-b32-finetuned-vqa) and [visualqa](https://visualqa.org/download.html) for the dataset.
+
